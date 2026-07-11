@@ -1,0 +1,50 @@
+# Keep Supabase free-tier project awake by pinging the REST API on a schedule.
+# Requires repo secrets: SUPABASE_URL, SUPABASE_ANON_KEY
+
+name: Keep Supabase Awake
+
+on:
+  schedule:
+    # Every 3 days at 06:00 UTC (well under the ~7-day pause window)
+    - cron: '0 6 */3 * *'
+  workflow_dispatch: # allow manual "Run workflow" from the Actions tab
+
+jobs:
+  ping-supabase:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Ping Supabase REST API
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${SUPABASE_URL:-}" ] || [ -z "${SUPABASE_ANON_KEY:-}" ]; then
+            echo "::error::Missing SUPABASE_URL or SUPABASE_ANON_KEY secrets. Add them in Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+
+          # Strip trailing slash
+          BASE_URL="${SUPABASE_URL%/}"
+          ENDPOINT="${BASE_URL}/rest/v1/menu_items?select=id&limit=1"
+
+          echo "Pinging ${BASE_URL}/rest/v1/menu_items ..."
+          HTTP_CODE=$(curl -sS -o /tmp/supabase-ping.json -w "%{http_code}" \
+            -H "apikey: ${SUPABASE_ANON_KEY}" \
+            -H "Authorization: Bearer ${SUPABASE_ANON_KEY}" \
+            -H "Accept: application/json" \
+            "${ENDPOINT}")
+
+          echo "HTTP status: ${HTTP_CODE}"
+          head -c 200 /tmp/supabase-ping.json || true
+          echo
+
+          if [ "${HTTP_CODE}" -lt 200 ] || [ "${HTTP_CODE}" -ge 300 ]; then
+            echo "::error::Supabase ping failed with HTTP ${HTTP_CODE}"
+            cat /tmp/supabase-ping.json || true
+            exit 1
+          fi
+
+          echo "Supabase is awake."
