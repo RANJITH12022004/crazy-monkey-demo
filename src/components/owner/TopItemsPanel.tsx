@@ -1,4 +1,4 @@
-import { formatCompactInr } from '@/lib/analytics'
+import { CHART_TOP_REVENUE, CHART_TOP_VOLUME, formatCompactInr } from '@/lib/analytics'
 import type { RankedItem } from '@/types/analytics'
 
 function RankedList({
@@ -6,20 +6,22 @@ function RankedList({
   icon,
   items,
   valueFormatter,
-  barClass,
-  iconClass,
+  barColor,
+  iconColor,
 }: {
   title: string
   icon: string
   items: RankedItem[]
   valueFormatter: (value: number) => string
-  barClass: string
-  iconClass: string
+  barColor: string
+  iconColor: string
 }) {
   return (
     <div className="flex flex-1 flex-col">
       <h3 className="mb-md flex items-center gap-sm text-xl font-semibold text-on-background">
-        <span className={`material-symbols-outlined text-xl ${iconClass}`}>{icon}</span>
+        <span className="material-symbols-outlined text-xl" style={{ color: iconColor }}>
+          {icon}
+        </span>
         {title}
       </h3>
       <div className="space-y-sm">
@@ -31,8 +33,11 @@ function RankedList({
             </div>
             <div className="h-2 w-full rounded-full bg-surface-container-high">
               <div
-                className={`h-2 rounded-full ${barClass}`}
-                style={{ width: `${Math.max(item.share, 8)}%` }}
+                className="h-2 rounded-full"
+                style={{
+                  width: `${Math.max(item.share, 8)}%`,
+                  backgroundColor: barColor,
+                }}
               />
             </div>
           </div>
@@ -56,8 +61,8 @@ export function TopItemsPanel({
         icon="military_tech"
         items={topByRevenue}
         valueFormatter={formatCompactInr}
-        barClass="bg-primary"
-        iconClass="text-primary"
+        barColor={CHART_TOP_REVENUE}
+        iconColor={CHART_TOP_REVENUE}
       />
       <hr className="border-outline-variant" />
       <RankedList
@@ -65,8 +70,8 @@ export function TopItemsPanel({
         icon="leaderboard"
         items={topByVolume}
         valueFormatter={(value) => `${value} qty`}
-        barClass="bg-tertiary"
-        iconClass="text-tertiary"
+        barColor={CHART_TOP_VOLUME}
+        iconColor={CHART_TOP_VOLUME}
       />
     </div>
   )

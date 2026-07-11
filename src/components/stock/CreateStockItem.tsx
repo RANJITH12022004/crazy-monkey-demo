@@ -30,6 +30,10 @@ export function CreateStockItem({ onCreated, onCancel }: CreateStockItemProps) {
       setError('Item name is required.')
       return
     }
+    if (quantity < 0 || threshold < 0) {
+      setError('Quantity and threshold must be zero or greater.')
+      return
+    }
 
     setSaving(true)
     setError(null)
@@ -51,30 +55,42 @@ export function CreateStockItem({ onCreated, onCancel }: CreateStockItemProps) {
   }
 
   return (
-    <div className="mx-auto max-w-xl rounded-xl border border-outline-variant/50 bg-surface-container-lowest p-lg shadow-sm">
-      <h2 className="text-2xl font-bold text-on-surface">Add Stock Item</h2>
-      <p className="mt-1 text-sm text-on-surface-variant">
-        Create a new inventory row for the kitchen demo.
-      </p>
+    <div>
+      <div className="mb-lg">
+        <h1 className="mb-xs text-[32px] font-bold text-on-background">Add New Item</h1>
+        <p className="text-base text-on-surface-variant">
+          Create a new inventory row for the kitchen demo.
+        </p>
+      </div>
 
-      <form className="mt-lg space-y-md" onSubmit={(event) => void handleSubmit(event)}>
-        <label className="block">
-          <span className="text-sm font-semibold text-on-surface">Item name</span>
+      <form
+        className="rounded-xl border border-outline-variant bg-surface-container-lowest p-lg shadow-sm"
+        onSubmit={(event) => void handleSubmit(event)}
+      >
+        <div className="mb-xl">
+          <label className="mb-sm block text-sm font-semibold text-on-surface" htmlFor="stock-item-name">
+            Item name
+          </label>
           <input
+            id="stock-item-name"
             value={name}
             onChange={(event) => setName(event.target.value)}
-            className="mt-sm w-full rounded-lg border border-outline-variant bg-surface px-md py-sm text-on-surface"
+            className="h-14 w-full rounded-lg border border-outline-variant bg-surface px-md text-lg text-on-surface transition-all focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none"
             placeholder="e.g. Chipotle Sauce"
             required
+            autoComplete="off"
           />
-        </label>
+        </div>
 
-        <label className="block">
-          <span className="text-sm font-semibold text-on-surface">Category</span>
+        <div className="mb-xl">
+          <label className="mb-sm block text-sm font-semibold text-on-surface" htmlFor="stock-item-category">
+            Category
+          </label>
           <select
+            id="stock-item-category"
             value={category}
             onChange={(event) => setCategory(event.target.value as StockCategory)}
-            className="mt-sm w-full rounded-lg border border-outline-variant bg-surface px-md py-sm text-on-surface"
+            className="h-14 w-full cursor-pointer appearance-none rounded-lg border border-outline-variant bg-surface px-md text-lg text-on-surface focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none"
           >
             {STOCK_CATEGORIES.map((entry) => (
               <option key={entry} value={entry}>
@@ -82,26 +98,32 @@ export function CreateStockItem({ onCreated, onCancel }: CreateStockItemProps) {
               </option>
             ))}
           </select>
-        </label>
+        </div>
 
-        <div className="grid grid-cols-1 gap-md sm:grid-cols-3">
-          <label className="block">
-            <span className="text-sm font-semibold text-on-surface">Quantity</span>
+        <div className="mb-xl grid grid-cols-1 gap-xl md:grid-cols-3">
+          <div>
+            <label className="mb-sm block text-sm font-semibold text-on-surface" htmlFor="stock-item-qty">
+              Quantity
+            </label>
             <input
+              id="stock-item-qty"
               type="number"
               min={0}
               step="0.1"
               value={quantity}
               onChange={(event) => setQuantity(Number(event.target.value))}
-              className="mt-sm w-full rounded-lg border border-outline-variant bg-surface px-md py-sm text-on-surface"
+              className="h-14 w-full rounded-lg border border-outline-variant bg-surface px-md text-lg text-on-surface focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none"
             />
-          </label>
-          <label className="block">
-            <span className="text-sm font-semibold text-on-surface">Unit</span>
+          </div>
+          <div>
+            <label className="mb-sm block text-sm font-semibold text-on-surface" htmlFor="stock-item-unit">
+              Unit
+            </label>
             <select
+              id="stock-item-unit"
               value={unit}
               onChange={(event) => setUnit(event.target.value)}
-              className="mt-sm w-full rounded-lg border border-outline-variant bg-surface px-md py-sm text-on-surface"
+              className="h-14 w-full cursor-pointer appearance-none rounded-lg border border-outline-variant bg-surface px-md text-lg text-on-surface focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none"
             >
               {UNITS.map((entry) => (
                 <option key={entry} value={entry}>
@@ -109,40 +131,49 @@ export function CreateStockItem({ onCreated, onCancel }: CreateStockItemProps) {
                 </option>
               ))}
             </select>
-          </label>
-          <label className="block">
-            <span className="text-sm font-semibold text-on-surface">Low threshold</span>
+          </div>
+          <div>
+            <label
+              className="mb-sm block text-sm font-semibold text-on-surface"
+              htmlFor="stock-item-threshold"
+            >
+              Low threshold
+            </label>
             <input
+              id="stock-item-threshold"
               type="number"
               min={0}
               step="0.1"
               value={threshold}
               onChange={(event) => setThreshold(Number(event.target.value))}
-              className="mt-sm w-full rounded-lg border border-outline-variant bg-surface px-md py-sm text-on-surface"
+              className="h-14 w-full rounded-lg border border-outline-variant bg-surface px-md text-lg text-on-surface focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none"
             />
-          </label>
+          </div>
         </div>
 
         {error && (
-          <p className="rounded-lg bg-error-container px-md py-sm text-sm text-on-error-container">
+          <p
+            className="mb-md rounded-lg bg-error-container px-md py-sm text-sm text-on-error-container"
+            role="alert"
+          >
             {error}
           </p>
         )}
 
-        <div className="flex flex-wrap gap-sm pt-sm">
-          <button
-            type="submit"
-            disabled={saving}
-            className="rounded-lg bg-primary px-lg py-sm text-sm font-bold text-on-primary disabled:opacity-60"
-          >
-            {saving ? 'Creating…' : 'Create item'}
-          </button>
+        <div className="flex justify-end gap-md border-t border-outline-variant pt-lg">
           <button
             type="button"
             onClick={onCancel}
-            className="rounded-lg border border-outline-variant px-lg py-sm text-sm font-semibold text-on-surface"
+            className="h-14 min-w-[120px] rounded-lg border border-outline px-xl py-sm text-sm font-semibold text-on-surface transition-colors hover:bg-surface-container-low"
           >
             Cancel
+          </button>
+          <button
+            type="submit"
+            disabled={saving}
+            className="h-14 min-w-[200px] rounded-lg bg-primary px-xl py-sm text-sm font-semibold text-on-primary shadow-sm transition-opacity hover:opacity-90 disabled:opacity-60"
+          >
+            {saving ? 'Creating…' : 'Create item'}
           </button>
         </div>
       </form>

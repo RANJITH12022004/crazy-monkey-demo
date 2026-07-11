@@ -2,11 +2,20 @@ import { useNavigate } from 'react-router-dom'
 import type { ReactNode } from 'react'
 import { useStaff } from '@/context/StaffContext'
 
+export type OwnerView = 'overview' | 'reports'
+
 interface OwnerLayoutProps {
+  activeView: OwnerView
+  onViewChange: (view: OwnerView) => void
   children: ReactNode
 }
 
-export function OwnerLayout({ children }: OwnerLayoutProps) {
+const NAV_ITEMS: { view: OwnerView; label: string; icon: string }[] = [
+  { view: 'overview', label: 'Overview', icon: 'dashboard' },
+  { view: 'reports', label: 'Reports', icon: 'analytics' },
+]
+
+export function OwnerLayout({ activeView, onViewChange, children }: OwnerLayoutProps) {
   const navigate = useNavigate()
   const { session, logout } = useStaff()
 
@@ -24,22 +33,29 @@ export function OwnerLayout({ children }: OwnerLayoutProps) {
         </div>
 
         <nav className="flex flex-grow flex-col gap-sm px-sm">
-          <a
-            href="#overview"
-            className="flex items-center gap-md rounded-lg bg-secondary-container px-md py-sm text-sm font-bold text-on-secondary-container"
-          >
-            <span
-              className="material-symbols-outlined"
-              style={{ fontVariationSettings: "'FILL' 1" }}
-            >
-              dashboard
-            </span>
-            Overview
-          </a>
-          <span className="flex items-center gap-md rounded-lg px-md py-sm text-sm text-on-surface-variant">
-            <span className="material-symbols-outlined">analytics</span>
-            Reports
-          </span>
+          {NAV_ITEMS.map((item) => {
+            const isActive = activeView === item.view
+            return (
+              <button
+                key={item.view}
+                type="button"
+                onClick={() => onViewChange(item.view)}
+                className={`flex items-center gap-md rounded-lg px-md py-sm text-sm font-bold transition-colors ${
+                  isActive
+                    ? 'bg-secondary-container text-on-secondary-container'
+                    : 'text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface'
+                }`}
+              >
+                <span
+                  className="material-symbols-outlined"
+                  style={isActive ? { fontVariationSettings: "'FILL' 1" } : undefined}
+                >
+                  {item.icon}
+                </span>
+                {item.label}
+              </button>
+            )
+          })}
         </nav>
 
         <div className="mt-auto border-t border-outline-variant pt-lg">
@@ -74,7 +90,26 @@ export function OwnerLayout({ children }: OwnerLayoutProps) {
         </button>
       </header>
 
-      <main className="md:ml-64">{children}</main>
+      <nav className="fixed right-0 bottom-0 left-0 z-40 flex border-t border-outline-variant bg-surface-container-lowest md:hidden">
+        {NAV_ITEMS.map((item) => {
+          const isActive = activeView === item.view
+          return (
+            <button
+              key={item.view}
+              type="button"
+              onClick={() => onViewChange(item.view)}
+              className={`flex flex-1 flex-col items-center gap-1 py-sm text-[10px] font-semibold ${
+                isActive ? 'text-primary' : 'text-on-surface-variant'
+              }`}
+            >
+              <span className="material-symbols-outlined text-xl">{item.icon}</span>
+              {item.label}
+            </button>
+          )
+        })}
+      </nav>
+
+      <main className="pb-20 md:ml-64 md:pb-0">{children}</main>
     </div>
   )
 }

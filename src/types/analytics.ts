@@ -49,6 +49,15 @@ export interface KpiMetrics {
   todayRevenue: number
   todayOrderCount: number
   averageOrderValue: number
+  weekRevenue: number
+  weekOrderCount: number
+  monthRevenue: number
+  monthOrderCount: number
+  totalRevenue: number
+  totalOrderCount: number
+  itemsSold: number
+  topItemName: string
+  topCategoryName: MenuCategory | '—'
 }
 
 export interface TrendPoint {

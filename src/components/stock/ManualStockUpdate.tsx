@@ -26,18 +26,22 @@ export function ManualStockUpdate({
   const [reason, setReason] = useState<AdjustmentReason | ''>('')
   const [notes, setNotes] = useState('')
   const [search, setSearch] = useState('')
+  const [listOpen, setListOpen] = useState(false)
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
     if (preselectedItemId) {
+      const preselected = items.find((item) => item.id === preselectedItemId)
       setSelectedId(preselectedItemId)
+      setSearch(preselected?.name ?? '')
       setAdjustment(0)
       setReason('')
       setNotes('')
       setError(null)
+      setListOpen(false)
     }
-  }, [preselectedItemId])
+  }, [preselectedItemId, items])
 
   const filteredItems = useMemo(() => {
     const query = search.trim().toLowerCase()
@@ -45,7 +49,7 @@ export function ManualStockUpdate({
     return items.filter((item) => item.name.toLowerCase().includes(query))
   }, [items, search])
 
-  const selectedItem = items.find((item) => item.id === selectedId) ?? items[0]
+  const selectedItem = items.find((item) => item.id === selectedId) ?? null
   const projectedStock = selectedItem
     ? Math.max(0, selectedItem.quantity + adjustment)
     : 0
@@ -53,14 +57,34 @@ export function ManualStockUpdate({
   const handleSelect = (item: StockItemRow) => {
     setSelectedId(item.id)
     setSearch(item.name)
+    setListOpen(false)
     setAdjustment(0)
     setReason('')
     setNotes('')
     setError(null)
   }
 
+  const handleSearchChange = (value: string) => {
+    setSearch(value)
+    setListOpen(true)
+
+    const query = value.trim().toLowerCase()
+    if (!query) {
+      // Cleared search — do not force Coca-Cola / first item back into the field
+      return
+    }
+
+    const exact = items.find((item) => item.name.toLowerCase() === query)
+    if (exact) {
+      setSelectedId(exact.id)
+    }
+  }
+
   const handleSave = async () => {
-    if (!selectedItem) return
+    if (!selectedItem) {
+      setError('Please select an item to update.')
+      return
+    }
     if (!reason) {
       setError('Please select a reason for this update.')
       return
@@ -86,7 +110,7 @@ export function ManualStockUpdate({
     }
   }
 
-  if (!selectedItem) {
+  if (items.length === 0) {
     return (
       <p className="text-on-surface-variant">
         No stock items found. Run the Supabase migration to seed data.
@@ -111,27 +135,30 @@ export function ManualStockUpdate({
               search
             </span>
             <input
-              type="text"
-              value={search || selectedItem.name}
-              onChange={(event) => {
-                setSearch(event.target.value)
-                const match = items.find((item) =>
-                  item.name.toLowerCase().includes(event.target.value.toLowerCase()),
-                )
-                if (match) setSelectedId(match.id)
+              type="search"
+              value={search}
+              placeholder={selectedItem ? selectedItem.name : 'Search stock items…'}
+              onChange={(event) => handleSearchChange(event.target.value)}
+              onFocus={() => setListOpen(true)}
+              onBlur={() => {
+                // Allow click on list item before closing
+                window.setTimeout(() => setListOpen(false), 150)
               }}
-              onFocus={() => setSearch(selectedItem.name)}
-              className="w-full rounded-lg border border-outline-variant bg-surface-container-low py-sm pr-sm pl-10 text-lg text-on-surface transition-all focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none"
+              className="h-14 w-full rounded-lg border border-outline-variant bg-surface-container-low py-sm pr-sm pl-10 text-lg text-on-surface transition-all focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none"
+              autoComplete="off"
             />
           </div>
-          {search && filteredItems.length > 1 && (
+          {listOpen && filteredItems.length > 0 && (
             <ul className="mt-sm max-h-48 overflow-y-auto rounded-lg border border-outline-variant bg-surface-container-lowest">
               {filteredItems.slice(0, 8).map((item) => (
                 <li key={item.id}>
                   <button
                     type="button"
+                    onMouseDown={(event) => event.preventDefault()}
                     onClick={() => handleSelect(item)}
-                    className="flex w-full items-center justify-between px-md py-sm text-left text-sm hover:bg-surface-container-low"
+                    className={`flex w-full items-center justify-between px-md py-sm text-left text-sm hover:bg-surface-container-low ${
+                      item.id === selectedId ? 'bg-secondary-container/40' : ''
+                    }`}
                   >
                     <span className="font-medium text-on-surface">{item.name}</span>
                     <span className="text-on-surface-variant">{item.category}</span>
@@ -140,74 +167,93 @@ export function ManualStockUpdate({
               ))}
             </ul>
           )}
-        </div>
-
-        <div className="mb-xl grid grid-cols-1 gap-xl md:grid-cols-2">
-          <div className="flex flex-col justify-center rounded-lg bg-surface-container p-md">
-            <span className="mb-xs text-xs font-medium tracking-wider text-on-surface-variant uppercase">
-              Current Stock
-            </span>
-            <div className="flex items-baseline gap-sm">
-              <span className="text-[32px] font-bold text-on-surface">{selectedItem.quantity}</span>
-              <span className="text-base text-on-surface-variant">{selectedItem.unit}</span>
-            </div>
-          </div>
-
-          <div>
-            <label className="mb-sm block text-sm font-semibold text-on-surface">
-              Adjustment Quantity
-            </label>
-            <QuantityStepper
-              size="large"
-              value={adjustment}
-              min={-selectedItem.quantity}
-              max={999}
-              onChange={setAdjustment}
-              ariaLabel="Stock adjustment amount"
-            />
-            <p className="mt-sm text-xs text-on-surface-variant">
-              New projected stock:{' '}
-              <span className="font-bold text-on-surface">
-                {projectedStock} {selectedItem.unit}
-              </span>
+          {listOpen && search.trim() && filteredItems.length === 0 && (
+            <p className="mt-sm text-sm text-on-surface-variant">No items match “{search.trim()}”.</p>
+          )}
+          {selectedItem && (
+            <p className="mt-sm text-sm text-on-surface-variant">
+              Selected:{' '}
+              <span className="font-semibold text-on-surface">{selectedItem.name}</span>
+              {' · '}
+              {selectedItem.quantity} {selectedItem.unit} on hand
             </p>
-          </div>
+          )}
         </div>
 
-        <div className="mb-xl grid grid-cols-1 gap-xl md:grid-cols-2">
-          <div>
-            <label className="mb-sm block text-sm font-semibold text-on-surface">
-              Reason for Update
-            </label>
-            <select
-              value={reason}
-              onChange={(event) => setReason(event.target.value as AdjustmentReason | '')}
-              className="h-14 w-full cursor-pointer appearance-none rounded-lg border border-outline-variant bg-surface p-sm text-lg text-on-surface focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none"
-            >
-              <option value="">Select a reason...</option>
-              {ADJUSTMENT_REASONS.map((option) => (
-                <option key={option.value} value={option.value}>
-                  {option.label}
-                </option>
-              ))}
-            </select>
-          </div>
-          <div>
-            <label className="mb-sm block text-sm font-semibold text-on-surface">
-              Notes (Optional)
-            </label>
-            <input
-              type="text"
-              value={notes}
-              onChange={(event) => setNotes(event.target.value)}
-              placeholder="Add details..."
-              className="h-14 w-full rounded-lg border border-outline-variant bg-surface p-sm text-lg text-on-surface focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none"
-            />
-          </div>
-        </div>
+        {selectedItem ? (
+          <>
+            <div className="mb-xl grid grid-cols-1 gap-xl md:grid-cols-2">
+              <div className="flex flex-col justify-center rounded-lg bg-surface-container p-md">
+                <span className="mb-xs text-xs font-medium tracking-wider text-on-surface-variant uppercase">
+                  Current Stock
+                </span>
+                <div className="flex items-baseline gap-sm">
+                  <span className="text-[32px] font-bold text-on-surface">{selectedItem.quantity}</span>
+                  <span className="text-base text-on-surface-variant">{selectedItem.unit}</span>
+                </div>
+              </div>
+
+              <div>
+                <label className="mb-sm block text-sm font-semibold text-on-surface">
+                  Adjustment Quantity
+                </label>
+                <QuantityStepper
+                  size="large"
+                  value={adjustment}
+                  min={-selectedItem.quantity}
+                  max={999}
+                  onChange={setAdjustment}
+                  ariaLabel="Stock adjustment amount"
+                />
+                <p className="mt-sm text-xs text-on-surface-variant">
+                  New projected stock:{' '}
+                  <span className="font-bold text-on-surface">
+                    {projectedStock} {selectedItem.unit}
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <div className="mb-xl grid grid-cols-1 gap-xl md:grid-cols-2">
+              <div>
+                <label className="mb-sm block text-sm font-semibold text-on-surface">
+                  Reason for Update
+                </label>
+                <select
+                  value={reason}
+                  onChange={(event) => setReason(event.target.value as AdjustmentReason | '')}
+                  className="h-14 w-full cursor-pointer appearance-none rounded-lg border border-outline-variant bg-surface p-sm text-lg text-on-surface focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none"
+                >
+                  <option value="">Select a reason...</option>
+                  {ADJUSTMENT_REASONS.map((option) => (
+                    <option key={option.value} value={option.value}>
+                      {option.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label className="mb-sm block text-sm font-semibold text-on-surface">
+                  Notes (Optional)
+                </label>
+                <input
+                  type="text"
+                  value={notes}
+                  onChange={(event) => setNotes(event.target.value)}
+                  placeholder="Add details..."
+                  className="h-14 w-full rounded-lg border border-outline-variant bg-surface p-sm text-lg text-on-surface focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none"
+                />
+              </div>
+            </div>
+          </>
+        ) : (
+          <p className="mb-xl text-sm text-on-surface-variant">
+            Search and pick an item above to adjust stock.
+          </p>
+        )}
 
         {error && (
-          <p className="mb-md text-sm text-on-surface-variant" role="alert">
+          <p className="mb-md text-sm text-error" role="alert">
             {error}
           </p>
         )}
@@ -225,7 +271,7 @@ export function ManualStockUpdate({
           <button
             type="button"
             onClick={() => void handleSave()}
-            disabled={saving}
+            disabled={saving || !selectedItem}
             className="h-14 min-w-[200px] rounded-lg bg-primary px-xl py-sm text-sm font-semibold text-on-primary shadow-sm transition-opacity hover:opacity-90 disabled:opacity-60"
           >
             {saving ? 'Updating…' : 'Update Stock'}

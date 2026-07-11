@@ -10,15 +10,25 @@ import type {
   TrendPoint,
 } from '@/types/analytics'
 
+/** Distinct palette so charts don't all read as the same navy. */
 const CATEGORY_COLORS: Record<MenuCategory, string> = {
-  Starters: '#335584',
-  Mains: '#4d6e9e',
-  Desserts: '#9b2e10',
-  Beverages: '#535f73',
+  Starters: '#0D9488', // teal
+  Mains: '#2563EB', // blue
+  Desserts: '#DB2777', // pink
+  Beverages: '#D97706', // amber
 }
 
-export const CHART_PRIMARY = '#335584'
-export const CHART_SECONDARY = '#9b2e10'
+export const CHART_REVENUE = '#059669' // emerald
+export const CHART_REVENUE_SOFT = '#34D399'
+export const CHART_PEAK_HIGH = '#EA580C' // orange
+export const CHART_PEAK_MID = '#F59E0B' // amber
+export const CHART_PEAK_LOW = '#FCD34D' // light amber
+export const CHART_TOP_REVENUE = '#7C3AED' // violet
+export const CHART_TOP_VOLUME = '#0891B2' // cyan
+
+/** @deprecated Prefer CHART_REVENUE — kept for any older imports */
+export const CHART_PRIMARY = CHART_REVENUE
+export const CHART_SECONDARY = CHART_PEAK_HIGH
 
 function startOfDay(date: Date): Date {
   const next = new Date(date)
@@ -34,15 +44,75 @@ function orderRevenue(order: OrderWithItems): number {
   return order.items.reduce((sum, item) => sum + item.price * item.quantity, 0)
 }
 
+function isWithinLastDays(date: Date, days: number, now = new Date()): boolean {
+  const start = startOfDay(now)
+  start.setDate(start.getDate() - (days - 1))
+  return date >= start && date <= now
+}
+
+function isSameMonth(a: Date, b: Date): boolean {
+  return a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth()
+}
+
 function computeKpis(orders: OrderWithItems[]): KpiMetrics {
   const today = new Date()
   const todayOrders = orders.filter((order) => isSameDay(new Date(order.created_at), today))
-  const todayRevenue = todayOrders.reduce((sum, order) => sum + orderRevenue(order), 0)
+  const weekOrders = orders.filter((order) =>
+    isWithinLastDays(new Date(order.created_at), 7, today),
+  )
+  const monthOrders = orders.filter((order) =>
+    isSameMonth(new Date(order.created_at), today),
+  )
+
+  const sumRevenue = (list: OrderWithItems[]) =>
+    list.reduce((sum, order) => sum + orderRevenue(order), 0)
+
+  const todayRevenue = sumRevenue(todayOrders)
   const todayOrderCount = todayOrders.length
   const averageOrderValue =
     todayOrderCount > 0 ? Math.round(todayRevenue / todayOrderCount) : 0
 
-  return { todayRevenue, todayOrderCount, averageOrderValue }
+  const weekRevenue = sumRevenue(weekOrders)
+  const weekOrderCount = weekOrders.length
+  const monthRevenue = sumRevenue(monthOrders)
+  const monthOrderCount = monthOrders.length
+  const totalRevenue = sumRevenue(orders)
+  const totalOrderCount = orders.length
+
+  let itemsSold = 0
+  const itemTotals = new Map<string, { name: string; qty: number }>()
+  const categoryTotals = new Map<MenuCategory, number>()
+
+  for (const order of orders) {
+    for (const item of order.items) {
+      itemsSold += item.quantity
+      const current = itemTotals.get(item.menu_item_id) ?? { name: item.name, qty: 0 }
+      current.qty += item.quantity
+      itemTotals.set(item.menu_item_id, current)
+      categoryTotals.set(
+        item.category,
+        (categoryTotals.get(item.category) ?? 0) + item.price * item.quantity,
+      )
+    }
+  }
+
+  const topItem = [...itemTotals.values()].sort((a, b) => b.qty - a.qty)[0]
+  const topCategory = [...categoryTotals.entries()].sort((a, b) => b[1] - a[1])[0]
+
+  return {
+    todayRevenue,
+    todayOrderCount,
+    averageOrderValue,
+    weekRevenue,
+    weekOrderCount,
+    monthRevenue,
+    monthOrderCount,
+    totalRevenue,
+    totalOrderCount,
+    itemsSold,
+    topItemName: topItem?.name ?? '—',
+    topCategoryName: topCategory?.[0] ?? '—',
+  }
 }
 
 function buildDailyTrend(orders: OrderWithItems[]): TrendPoint[] {
