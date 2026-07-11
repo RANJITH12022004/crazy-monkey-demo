@@ -1,0 +1,828 @@
+﻿{
+    "id":  3,
+    "jsonrpc":  "2.0",
+    "result":  {
+                   "content":  [
+                                   {
+                                       "text":  "{\"projects\":[{\"name\":\"projects/11666165661317078688\",\"title\":\"QuickDine QR Ordering\",\"visibility\":\"PRIVATE\",\"createTime\":\"2026-07-09T18:38:40.057846Z\",\"updateTime\":\"2026-07-09T19:44:57.044417Z\",\"projectType\":\"TEXT_TO_UI_PRO\",\"thumbnailScreenshot\":{\"name\":\"projects/11666165661317078688/files/bae74cf109e14f5a97571e31d9164676\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLvQ1H4bFDrTKSnDK_f2K-3uh2lvkCvr3yko2lEGGcPZY_NJcsyhTq9n7GFfQ25sMhg8w_gW-ZkwlKXIkpx409hCdn6PlJZFzYr-h_7QJUSxejuMV0BaZipjyrYL4-K_pGuGq08yxBJgmk-ezUOT81LwsryixseuKW3B1NPquUnytmtBLenfr71MIsfNwObYv-Md9cb-Ut4oLkVgPhwtU_QEDN5Bq1WCSnBOL8ld1e4ir-jx3FsebagQpfhy\"},\"origin\":\"STITCH\",\"deviceType\":\"MOBILE\",\"designTheme\":{\"colorMode\":\"LIGHT\",\"font\":\"INTER\",\"roundness\":\"ROUND_EIGHT\",\"customColor\":\"#e65100\",\"headlineFont\":\"INTER\",\"bodyFont\":\"INTER\",\"labelFont\":\"INTER\",\"namedColors\":{\"background\":\"#fbf9f1\",\"error\":\"#ba1a1a\",\"error_container\":\"#ffdad6\",\"inverse_on_surface\":\"#f3f1e9\",\"inverse_primary\":\"#ffb59a\",\"inverse_surface\":\"#30312c\",\"on_background\":\"#1b1c17\",\"on_error\":\"#ffffff\",\"on_error_container\":\"#93000a\",\"on_primary\":\"#ffffff\",\"on_primary_container\":\"#fffbff\",\"on_primary_fixed\":\"#380d00\",\"on_primary_fixed_variant\":\"#802a00\",\"on_secondary\":\"#ffffff\",\"on_secondary_container\":\"#307231\",\"on_secondary_fixed\":\"#002203\",\"on_secondary_fixed_variant\":\"#0c5216\",\"on_surface\":\"#1b1c17\",\"on_surface_variant\":\"#5a4138\",\"on_tertiary\":\"#ffffff\",\"on_tertiary_container\":\"#fffbff\",\"on_tertiary_fixed\":\"#410003\",\"on_tertiary_fixed_variant\":\"#930010\",\"outline\":\"#8f7066\",\"outline_variant\":\"#e3bfb2\",\"primary\":\"#a43700\",\"primary_container\":\"#cd4700\",\"primary_fixed\":\"#ffdbcf\",\"primary_fixed_dim\":\"#ffb59a\",\"secondary\":\"#2a6b2c\",\"secondary_container\":\"#acf4a4\",\"secondary_fixed\":\"#acf4a4\",\"secondary_fixed_dim\":\"#91d78a\",\"surface\":\"#fbf9f1\",\"surface_bright\":\"#fbf9f1\",\"surface_container\":\"#f0eee6\",\"surface_container_high\":\"#eae8e0\",\"surface_container_highest\":\"#e4e3db\",\"surface_container_low\":\"#f5f4ec\",\"surface_container_lowest\":\"#ffffff\",\"surface_dim\":\"#dcdad2\",\"surface_tint\":\"#a83900\",\"surface_variant\":\"#e4e3db\",\"tertiary\":\"#b6171e\",\"tertiary_container\":\"#da3433\",\"tertiary_fixed\":\"#ffdad6\",\"tertiary_fixed_dim\":\"#ffb3ac\"},\"designMd\":\"---\\nname: Warm \u0026 Professional Table\\ncolors:\\n  surface: \u0027#fbf9f1\u0027\\n  surface-dim: \u0027#dcdad2\u0027\\n  surface-bright: \u0027#fbf9f1\u0027\\n  surface-container-lowest: \u0027#ffffff\u0027\\n  surface-container-low: \u0027#f5f4ec\u0027\\n  surface-container: \u0027#f0eee6\u0027\\n  surface-container-high: \u0027#eae8e0\u0027\\n  surface-container-highest: \u0027#e4e3db\u0027\\n  on-surface: \u0027#1b1c17\u0027\\n  on-surface-variant: \u0027#5a4138\u0027\\n  inverse-surface: \u0027#30312c\u0027\\n  inverse-on-surface: \u0027#f3f1e9\u0027\\n  outline: \u0027#8f7066\u0027\\n  outline-variant: \u0027#e3bfb2\u0027\\n  surface-tint: \u0027#a83900\u0027\\n  primary: \u0027#a43700\u0027\\n  on-primary: \u0027#ffffff\u0027\\n  primary-container: \u0027#cd4700\u0027\\n  on-primary-container: \u0027#fffbff\u0027\\n  inverse-primary: \u0027#ffb59a\u0027\\n  secondary: \u0027#2a6b2c\u0027\\n  on-secondary: \u0027#ffffff\u0027\\n  secondary-container: \u0027#acf4a4\u0027\\n  on-secondary-container: \u0027#307231\u0027\\n  tertiary: \u0027#b6171e\u0027\\n  on-tertiary: \u0027#ffffff\u0027\\n  tertiary-container: \u0027#da3433\u0027\\n  on-tertiary-container: \u0027#fffbff\u0027\\n  error: \u0027#ba1a1a\u0027\\n  on-error: \u0027#ffffff\u0027\\n  error-container: \u0027#ffdad6\u0027\\n  on-error-container: \u0027#93000a\u0027\\n  primary-fixed: \u0027#ffdbcf\u0027\\n  primary-fixed-dim: \u0027#ffb59a\u0027\\n  on-primary-fixed: \u0027#380d00\u0027\\n  on-primary-fixed-variant: \u0027#802a00\u0027\\n  secondary-fixed: \u0027#acf4a4\u0027\\n  secondary-fixed-dim: \u0027#91d78a\u0027\\n  on-secondary-fixed: \u0027#002203\u0027\\n  on-secondary-fixed-variant: \u0027#0c5216\u0027\\n  tertiary-fixed: \u0027#ffdad6\u0027\\n  tertiary-fixed-dim: \u0027#ffb3ac\u0027\\n  on-tertiary-fixed: \u0027#410003\u0027\\n  on-tertiary-fixed-variant: \u0027#930010\u0027\\n  background: \u0027#fbf9f1\u0027\\n  on-background: \u0027#1b1c17\u0027\\n  surface-variant: \u0027#e4e3db\u0027\\ntypography:\\n  headline-lg:\\n    fontFamily: Inter\\n    fontSize: 32px\\n    fontWeight: \u0027700\u0027\\n    lineHeight: 40px\\n    letterSpacing: -0.02em\\n  headline-lg-mobile:\\n    fontFamily: Inter\\n    fontSize: 26px\\n    fontWeight: \u0027700\u0027\\n    lineHeight: 32px\\n    letterSpacing: -0.02em\\n  headline-md:\\n    fontFamily: Inter\\n    fontSize: 20px\\n    fontWeight: \u0027600\u0027\\n    lineHeight: 28px\\n  body-lg:\\n    fontFamily: Inter\\n    fontSize: 18px\\n    fontWeight: \u0027400\u0027\\n    lineHeight: 26px\\n  body-md:\\n    fontFamily: Inter\\n    fontSize: 16px\\n    fontWeight: \u0027400\u0027\\n    lineHeight: 24px\\n  label-lg:\\n    fontFamily: Inter\\n    fontSize: 14px\\n    fontWeight: \u0027600\u0027\\n    lineHeight: 20px\\n    letterSpacing: 0.01em\\n  label-sm:\\n    fontFamily: Inter\\n    fontSize: 12px\\n    fontWeight: \u0027500\u0027\\n    lineHeight: 16px\\nrounded:\\n  sm: 0.25rem\\n  DEFAULT: 0.5rem\\n  md: 0.75rem\\n  lg: 1rem\\n  xl: 1.5rem\\n  full: 9999px\\nspacing:\\n  base: 8px\\n  xs: 4px\\n  sm: 12px\\n  md: 16px\\n  lg: 24px\\n  xl: 32px\\n  container-max: 1200px\\n  gutter: 16px\\n  margin-mobile: 16px\\n  margin-desktop: 40px\\n---\\n\\n## Brand \u0026 Style\\n\\nThis design system is built for a high-utility, high-trust restaurant ordering experience tailored to the Indian market. The brand personality is warm, appetizing, and extremely reliable. It avoids unnecessary visual noise to focus on clarity and efficiency, ensuring a zero learning curve for users across all demographics.\\n\\nThe aesthetic follows a **Refined Minimalism** approach. It utilizes generous whitespace to reduce cognitive load during a hungry state. The interface feels \\\"warm\\\" rather than \\\"clinical\\\" by using a soft off-white base, creating a digital environment that mimics a clean, physical menu. High-contrast elements are used strategically to guide the user toward the checkout without distraction.\\n\\n## Colors\\n\\nThe palette is designed to stimulate appetite and ensure accessibility. \\n\\n- **Primary (#E65100):** A deep, confident orange used exclusively for primary calls-to-action (CTAs), progress indicators, and active states.\\n- **Secondary (#1B5E20):** A forest green dedicated to \\\"Veg\\\" indicators and success messaging, providing a high-contrast and culturally familiar cue.\\n- **Tertiary (#D32F2F):** A deep red reserved strictly for \\\"Non-Veg\\\" indicators and error states.\\n- **Neutral Base (#FFFDF5):** A warm off-white/cream background that reduces screen glare and provides a premium, inviting feel compared to pure white.\\n- **Surface (#FFFFFF):** Pure white is used for elevated cards and input fields to create subtle depth against the cream background.\\n\\n## Typography\\n\\nThe design system uses **Inter** for its exceptional legibility and neutral, professional character. \\n\\n- **Scale:** Type sizes are intentionally larger than standard web defaults to accommodate varied lighting conditions in restaurants and ensure readability for all age groups.\\n- **Hierarchy:** High weight contrast (700 for headlines vs 400 for body) is used to make the menu easily scannable.\\n- **Readability:** Line heights are generous (1.5x for body text) to prevent text from feeling cramped, especially in dish descriptions.\\n\\n## Layout \u0026 Spacing\\n\\nThe system uses a **Fluid Grid** model with a strict 8px spacing scale. \\n\\n- **Mobile First:** Given the use case, the layout is optimized for thumb-reachability. All critical actions (Add to Cart, View Basket) are placed in a fixed bottom container.\\n- **Grid:** A 12-column grid is used for desktop, collapsing to a single-column list or two-column grid for mobile food items.\\n- **Safe Zones:** A minimum 16px margin is maintained on all mobile edges to prevent accidental touches near the bezel.\\n- **Negative Space:** Generous vertical spacing (24px+) is used between category sections (e.g., \\\"Starters\\\" to \\\"Main Course\\\") to provide clear visual separation without relying on heavy dividers.\\n\\n## Elevation \u0026 Depth\\n\\nTo maintain a clean and professional look, this design system avoids heavy shadows. \\n\\n- **Surface Tiers:** Depth is primarily communicated through color blocking. Pure white cards sit on the #FFFDF5 cream background.\\n- **Soft Elevation:** Only high-priority interactive elements (like the floating \\\"View Cart\\\" button or active modals) use a very soft, diffused ambient shadow (10% opacity, 12px blur) to suggest they are \\\"floating\\\" above the menu.\\n- **Outlines:** Inactive or secondary elements use a subtle 1px border (#E0DDCF) instead of shadows to maintain a flat, modern aesthetic.\\n\\n## Shapes\\n\\nThe shape language is **Rounded**, conveying friendliness and modern professionalism. \\n\\n- **Standard Radius:** 8px (0.5rem) is the default for buttons, cards, and input fields.\\n- **Large Radius:** 16px (1rem) is used for bottom sheets and large container modals.\\n- **Circular:** Used exclusively for \\\"Veg/Non-Veg\\\" status dots and quantity increment buttons to make them feel tactile and distinct.\\n\\n## Components\\n\\n- **Buttons:** Primary buttons use the Deep Orange background with white text. They must have a minimum height of 48px to ensure easy tapping. Secondary buttons use an outlined style.\\n- **Menu Cards:** Use a pure white surface. The Veg/Non-Veg indicator (a square with a circle inside, following Indian FSSAI standards) must be placed prominently in the top left or next to the item name.\\n- **Quantity Pickers:** Large \\\"Add\\\" buttons that transform into `- 1 +` controls once selected. These should be high-contrast and placed at the bottom right of the card for easy thumb access.\\n- **Sticky Bottom Bar:** A persistent container for \\\"View Cart\\\" and \\\"Total\\\" that sits at the very bottom of the viewport on mobile, utilizing the Primary Color.\\n- **Chips:** Used for quick filters like \\\"Bestseller,\\\" \\\"Must Try,\\\" or \\\"Spicy.\\\" These should use a light tint of the primary color with dark text.\\n- **Input Fields:** Clean, white backgrounds with 1px #E0DDCF borders. Labels should be persistent or use high-contrast placeholders to ensure clarity during the checkout process.\",\"colorVariant\":\"FIDELITY\",\"overridePrimaryColor\":\"#e65100\",\"overrideSecondaryColor\":\"#1b5e20\",\"overrideTertiaryColor\":\"#d32f2f\",\"overrideNeutralColor\":\"#fffdf5\",\"spacingScale\":2,\"typography\":{\"body-lg\":{\"fontFamily\":\"Inter\",\"fontSize\":\"18px\",\"fontWeight\":\"400\",\"lineHeight\":\"26px\"},\"body-md\":{\"fontFamily\":\"Inter\",\"fontSize\":\"16px\",\"fontWeight\":\"400\",\"lineHeight\":\"24px\"},\"headline-lg\":{\"fontFamily\":\"Inter\",\"fontSize\":\"32px\",\"fontWeight\":\"700\",\"lineHeight\":\"40px\",\"letterSpacing\":\"-0.02em\"},\"headline-lg-mobile\":{\"fontFamily\":\"Inter\",\"fontSize\":\"26px\",\"fontWeight\":\"700\",\"lineHeight\":\"32px\",\"letterSpacing\":\"-0.02em\"},\"headline-md\":{\"fontFamily\":\"Inter\",\"fontSize\":\"20px\",\"fontWeight\":\"600\",\"lineHeight\":\"28px\"},\"label-lg\":{\"fontFamily\":\"Inter\",\"fontSize\":\"14px\",\"fontWeight\":\"600\",\"lineHeight\":\"20px\",\"letterSpacing\":\"0.01em\"},\"label-sm\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"500\",\"lineHeight\":\"16px\"}},\"spacing\":{\"base\":\"8px\",\"container-max\":\"1200px\",\"gutter\":\"16px\",\"lg\":\"24px\",\"margin-desktop\":\"40px\",\"margin-mobile\":\"16px\",\"md\":\"16px\",\"sm\":\"12px\",\"xl\":\"32px\",\"xs\":\"4px\"},\"headlineFontFamily\":\"Inter\",\"bodyFontFamily\":\"Inter\",\"labelFontFamily\":\"Inter\"},\"screenInstances\":[{\"id\":\"043434a7b4644e75a7c0a03a38ed5213\",\"sourceScreen\":\"projects/11666165661317078688/screens/043434a7b4644e75a7c0a03a38ed5213\",\"x\":8313,\"y\":6114,\"width\":1280,\"height\":1024},{\"id\":\"0dd261ec54974cccab7a00eccc15ac42\",\"sourceScreen\":\"projects/11666165661317078688/screens/0dd261ec54974cccab7a00eccc15ac42\",\"x\":5121,\"y\":4511,\"width\":1280,\"height\":1024},{\"id\":\"10543b73df874f179dd8be6c435f6e94\",\"sourceScreen\":\"projects/11666165661317078688/screens/10543b73df874f179dd8be6c435f6e94\",\"x\":1473,\"y\":-221,\"width\":512,\"height\":512,\"hidden\":true},{\"id\":\"157f565ab8f34d97a674e42129afd4be\",\"sourceScreen\":\"projects/11666165661317078688/screens/157f565ab8f34d97a674e42129afd4be\",\"x\":5485,\"y\":1222,\"width\":390,\"height\":884,\"hidden\":true},{\"id\":\"2255ce18d6e242fc802a99b05d13bb7a\",\"sourceScreen\":\"projects/11666165661317078688/screens/2255ce18d6e242fc802a99b05d13bb7a\",\"x\":2846,\"y\":1073,\"width\":390,\"height\":884,\"hidden\":true},{\"id\":\"227377caf76f47c8a753400e287177af\",\"sourceScreen\":\"projects/11666165661317078688/screens/227377caf76f47c8a753400e287177af\",\"x\":2433,\"y\":4511,\"width\":1280,\"height\":1024},{\"id\":\"250c04f40aac4ca28ac01fe271608ebc\",\"sourceScreen\":\"projects/11666165661317078688/screens/250c04f40aac4ca28ac01fe271608ebc\",\"x\":1024,\"y\":3186,\"width\":1280,\"height\":1024},{\"id\":\"254994379dc043dfa13edf6b1a99b661\",\"sourceScreen\":\"projects/11666165661317078688/screens/254994379dc043dfa13edf6b1a99b661\",\"x\":1938,\"y\":1073,\"width\":390,\"height\":1320},{\"id\":\"2b507c47441f44b781091129e2f37a28\",\"sourceScreen\":\"projects/11666165661317078688/screens/2b507c47441f44b781091129e2f37a28\",\"x\":6720,\"y\":4466,\"width\":390,\"height\":390,\"hidden\":true},{\"id\":\"3e935233ee4d4e46875128903aaffd99\",\"sourceScreen\":\"projects/11666165661317078688/screens/3e935233ee4d4e46875128903aaffd99\",\"x\":5073,\"y\":2017,\"width\":390,\"height\":884,\"hidden\":true},{\"id\":\"4a8845dee6d146eaa6925f9aaf0eac6a\",\"sourceScreen\":\"projects/11666165661317078688/screens/4a8845dee6d146eaa6925f9aaf0eac6a\",\"x\":1089,\"y\":4511,\"width\":1280,\"height\":1024},{\"id\":\"4ba57a1b9ee345daa1d1c74df3d886cd\",\"sourceScreen\":\"projects/11666165661317078688/screens/4ba57a1b9ee345daa1d1c74df3d886cd\",\"x\":2368,\"y\":3186,\"width\":1280,\"height\":1024},{\"id\":\"4c2dd45354414f8e9a96103b10489777\",\"sourceScreen\":\"projects/11666165661317078688/screens/4c2dd45354414f8e9a96103b10489777\",\"x\":6117,\"y\":1235,\"width\":390,\"height\":884,\"hidden\":true},{\"id\":\"4d6d3198036045338b85b366defb8d15\",\"sourceScreen\":\"projects/11666165661317078688/screens/4d6d3198036045338b85b366defb8d15\",\"x\":3712,\"y\":3186,\"width\":1280,\"height\":1024},{\"id\":\"58868269044c47f0beaca0b31a1ca541\",\"sourceScreen\":\"projects/11666165661317078688/screens/58868269044c47f0beaca0b31a1ca541\",\"x\":4438,\"y\":1845,\"width\":390,\"height\":884,\"hidden\":true},{\"id\":\"6a05f56767e94d3ca3d0225ca8dafb5a\",\"sourceScreen\":\"projects/11666165661317078688/screens/6a05f56767e94d3ca3d0225ca8dafb5a\",\"x\":3712,\"y\":6256,\"width\":1280,\"height\":1024},{\"id\":\"795bd0cee48a41b2a1a6ad334fb6f9d9\",\"sourceScreen\":\"projects/11666165661317078688/screens/795bd0cee48a41b2a1a6ad334fb6f9d9\",\"x\":2943,\"y\":-242,\"width\":390,\"height\":884},{\"id\":\"7ef40a66875941d395f33f87d00b5df4\",\"sourceScreen\":\"projects/11666165661317078688/screens/7ef40a66875941d395f33f87d00b5df4\",\"x\":-254,\"y\":4511,\"width\":1280,\"height\":1024},{\"id\":\"7fef08bd84454183aaeffbf27ce3e3a8\",\"sourceScreen\":\"projects/11666165661317078688/screens/7fef08bd84454183aaeffbf27ce3e3a8\",\"x\":2392,\"y\":1073,\"width\":390,\"height\":1006},{\"id\":\"80c6790baa8d4183b6b7c16913db9052\",\"sourceScreen\":\"projects/11666165661317078688/screens/80c6790baa8d4183b6b7c16913db9052\",\"x\":3777,\"y\":4511,\"width\":1280,\"height\":1024},{\"id\":\"87bf2fad3cd34a0887f5b21476e01400\",\"sourceScreen\":\"projects/11666165661317078688/screens/87bf2fad3cd34a0887f5b21476e01400\",\"x\":2049,\"y\":-221,\"width\":390,\"height\":884},{\"id\":\"936e92dba5a04f31b3a7e8dc89540115\",\"sourceScreen\":\"projects/11666165661317078688/screens/936e92dba5a04f31b3a7e8dc89540115\",\"x\":5527,\"y\":2017,\"width\":390,\"height\":884,\"hidden\":true,\"isResized\":true},{\"id\":\"a582e1cb-dbaf-415d-9fd0-88471a95964a\",\"sourceScreen\":\"projects/11666165661317078688/screens/12551465583412660738\",\"x\":-36,\"y\":1386,\"width\":512,\"height\":512,\"type\":\"SCREEN_INSTANCE\"},{\"id\":\"a9f114cdffac452ab93f9cd60fe0d357\",\"sourceScreen\":\"projects/11666165661317078688/screens/a9f114cdffac452ab93f9cd60fe0d357\",\"x\":1030,\"y\":1073,\"width\":390,\"height\":1857},{\"id\":\"assets_1d4bb30d6575435db3afb0f0a8226c9e\",\"x\":-1108,\"y\":3312,\"width\":960,\"height\":540,\"sourceAsset\":\"assets/1d4bb30d6575435db3afb0f0a8226c9e\",\"type\":\"DESIGN_SYSTEM_INSTANCE\"},{\"id\":\"assets_82ed2fc5e79e4dbc8cebf1228c9ad354\",\"x\":858,\"y\":79,\"width\":960,\"height\":540,\"hidden\":true,\"sourceAsset\":\"assets/82ed2fc5e79e4dbc8cebf1228c9ad354\",\"type\":\"DESIGN_SYSTEM_INSTANCE\"},{\"id\":\"assets_cd1ab93bea5b4351ab52ca7cd73c9a04\",\"x\":248,\"y\":39,\"width\":960,\"height\":540,\"sourceAsset\":\"assets/cd1ab93bea5b4351ab52ca7cd73c9a04\",\"type\":\"DESIGN_SYSTEM_INSTANCE\"},{\"id\":\"bf37b599c57e4353bf07f917b4c3e509\",\"sourceScreen\":\"projects/11666165661317078688/screens/bf37b599c57e4353bf07f917b4c3e509\",\"x\":-870,\"y\":6222,\"width\":1280,\"height\":1024},{\"id\":\"c0585bfc91884161b276a2de4adb8de0\",\"sourceScreen\":\"projects/11666165661317078688/screens/c0585bfc91884161b276a2de4adb8de0\",\"y\":1073,\"width\":512,\"height\":512,\"hidden\":true},{\"id\":\"c186f7e08a434df9adefb18835e65e73\",\"sourceScreen\":\"projects/11666165661317078688/screens/c186f7e08a434df9adefb18835e65e73\",\"x\":2126,\"y\":6222,\"width\":1280,\"height\":1024},{\"id\":\"c6579c3b771a47ffa0fa7436dcc007e9\",\"sourceScreen\":\"projects/11666165661317078688/screens/c6579c3b771a47ffa0fa7436dcc007e9\",\"x\":4901,\"y\":1269,\"width\":390,\"height\":884,\"hidden\":true},{\"id\":\"c8abcb2ee29b42e19dcb0515a780d7e3\",\"sourceScreen\":\"projects/11666165661317078688/screens/c8abcb2ee29b42e19dcb0515a780d7e3\",\"x\":1583,\"y\":-260,\"width\":390,\"height\":884},{\"id\":\"c8abcb2ee29b42e19dcb0515a780d7e3-1783624850307\",\"sourceScreen\":\"projects/11666165661317078688/screens/3633661772997983817\",\"x\":626,\"y\":1123,\"width\":390,\"height\":884},{\"id\":\"cb4a2a6d83414244a046139e3be22946\",\"sourceScreen\":\"projects/11666165661317078688/screens/cb4a2a6d83414244a046139e3be22946\",\"x\":6740,\"y\":6151,\"width\":1280,\"height\":1024},{\"id\":\"d5e2b9fee90d47c8bffc55ea1f457796\",\"sourceScreen\":\"projects/11666165661317078688/screens/c3241f4c57d84887b8e750e93309cbdb\",\"x\":3382,\"y\":-249,\"width\":390,\"height\":1033},{\"id\":\"d63690306ccc424db68f0c9e2600b0c7\",\"sourceScreen\":\"projects/11666165661317078688/screens/d63690306ccc424db68f0c9e2600b0c7\",\"x\":5227,\"y\":6193,\"width\":1280,\"height\":1024},{\"id\":\"dac943eb53b94be4861854c2c657d39b\",\"sourceScreen\":\"projects/11666165661317078688/screens/dac943eb53b94be4861854c2c657d39b\",\"x\":9816,\"y\":6161,\"width\":1280,\"height\":1024},{\"id\":\"de77ee6b9f2544c7bbe928145b343cda\",\"sourceScreen\":\"projects/11666165661317078688/screens/4900350f7c874052a2983e9d833f4bcc\",\"x\":1019,\"y\":-221,\"width\":390,\"height\":884,\"hidden\":true},{\"id\":\"e4dd7b1d9ef84459a803e7f7d296920c\",\"sourceScreen\":\"projects/11666165661317078688/screens/e480f10a289849dc9bb3bc9b697d9460\",\"x\":4321,\"y\":-230,\"width\":390,\"height\":824},{\"id\":\"e6ac8e2ba229405d87341a54a13b379f\",\"sourceScreen\":\"projects/11666165661317078688/screens/e6ac8e2ba229405d87341a54a13b379f\",\"x\":2503,\"y\":-221,\"width\":390,\"height\":884},{\"id\":\"eaabc0f710c243e58c66656619917a25\",\"sourceScreen\":\"projects/11666165661317078688/screens/a8bc2858181343d880c7a7ef6fef8ab1\",\"x\":3828,\"y\":-235,\"width\":426,\"height\":916,\"isResized\":true},{\"id\":\"ed2fa73033aa4798bd78c9e9223d9083\",\"sourceScreen\":\"projects/11666165661317078688/screens/ed2fa73033aa4798bd78c9e9223d9083\",\"x\":1484,\"y\":1073,\"width\":390,\"height\":1153},{\"id\":\"fe467afda50042d78a54d4b27e7f8ccb\",\"sourceScreen\":\"projects/11666165661317078688/screens/fe467afda50042d78a54d4b27e7f8ccb\",\"x\":617,\"y\":6286,\"width\":1280,\"height\":1024}],\"metadata\":{\"userRole\":\"OWNER\"}},{\"name\":\"projects/16391226028490069095\",\"title\":\"Cortex Industrial Management System\",\"visibility\":\"PRIVATE\",\"createTime\":\"2026-07-02T06:41:32.025981Z\",\"updateTime\":\"2026-07-02T06:49:00.049677Z\",\"projectType\":\"TEXT_TO_UI_PRO\",\"thumbnailScreenshot\":{\"name\":\"projects/16391226028490069095/files/a352b843744f435195a7c9991dcdf947\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLsXqBYkbub9fwEyRWGOvCNW-Oj8cK2hOnxlgJ-POC_EZEJ9Tz1SNr1O9_pgJBq_NAj04s0lQiy4pktFO2Ci1aVuBtQCAIaLQh8rKQFAc4CUzdzzrjpv2eiIRrwduNorNSFPsrpTABqdour0xsXdbp1sCl3sfUd5Jj3mWgCKS_vTh99q55yimdgRE_E8HRez8nnegMgAaMCpD9j9MeCj9VAIkOdY87bvhGhZwifN6RikhUj2a0aQ4DcFFY8\"},\"origin\":\"STITCH\",\"deviceType\":\"DESKTOP\",\"designTheme\":{\"colorMode\":\"LIGHT\",\"font\":\"ARCHIVO_NARROW\",\"roundness\":\"ROUND_FOUR\",\"customColor\":\"#2c4a6e\",\"headlineFont\":\"ARCHIVO_NARROW\",\"bodyFont\":\"INTER\",\"labelFont\":\"ARCHIVO_NARROW\",\"namedColors\":{\"background\":\"#faf9fc\",\"error\":\"#ba1a1a\",\"error_container\":\"#ffdad6\",\"inverse_on_surface\":\"#f1f0f4\",\"inverse_primary\":\"#abc9f3\",\"inverse_surface\":\"#2f3033\",\"on_background\":\"#1a1c1e\",\"on_error\":\"#ffffff\",\"on_error_container\":\"#93000a\",\"on_primary\":\"#ffffff\",\"on_primary_container\":\"#9cbae4\",\"on_primary_fixed\":\"#001c38\",\"on_primary_fixed_variant\":\"#2a486c\",\"on_secondary\":\"#ffffff\",\"on_secondary_container\":\"#6f4300\",\"on_secondary_fixed\":\"#2b1700\",\"on_secondary_fixed_variant\":\"#673d00\",\"on_surface\":\"#1a1c1e\",\"on_surface_variant\":\"#43474e\",\"on_tertiary\":\"#ffffff\",\"on_tertiary_container\":\"#7cc799\",\"on_tertiary_fixed\":\"#002110\",\"on_tertiary_fixed_variant\":\"#005230\",\"outline\":\"#73777f\",\"outline_variant\":\"#c3c6cf\",\"primary\":\"#123356\",\"primary_container\":\"#2c4a6e\",\"primary_fixed\":\"#d3e4ff\",\"primary_fixed_dim\":\"#abc9f3\",\"secondary\":\"#875200\",\"secondary_container\":\"#fead48\",\"secondary_fixed\":\"#ffddba\",\"secondary_fixed_dim\":\"#ffb866\",\"surface\":\"#faf9fc\",\"surface_bright\":\"#faf9fc\",\"surface_container\":\"#eeedf1\",\"surface_container_high\":\"#e9e8eb\",\"surface_container_highest\":\"#e3e2e5\",\"surface_container_low\":\"#f4f3f6\",\"surface_container_lowest\":\"#ffffff\",\"surface_dim\":\"#dad9dd\",\"surface_tint\":\"#436085\",\"surface_variant\":\"#e3e2e5\",\"tertiary\":\"#003b21\",\"tertiary_container\":\"#005431\",\"tertiary_fixed\":\"#a6f3c2\",\"tertiary_fixed_dim\":\"#8bd7a7\"},\"designMd\":\"---\\nname: Industrial Precision System\\ncolors:\\n  surface: \u0027#faf9fc\u0027\\n  surface-dim: \u0027#dad9dd\u0027\\n  surface-bright: \u0027#faf9fc\u0027\\n  surface-container-lowest: \u0027#ffffff\u0027\\n  surface-container-low: \u0027#f4f3f6\u0027\\n  surface-container: \u0027#eeedf1\u0027\\n  surface-container-high: \u0027#e9e8eb\u0027\\n  surface-container-highest: \u0027#e3e2e5\u0027\\n  on-surface: \u0027#1a1c1e\u0027\\n  on-surface-variant: \u0027#43474e\u0027\\n  inverse-surface: \u0027#2f3033\u0027\\n  inverse-on-surface: \u0027#f1f0f4\u0027\\n  outline: \u0027#73777f\u0027\\n  outline-variant: \u0027#c3c6cf\u0027\\n  surface-tint: \u0027#436085\u0027\\n  primary: \u0027#123356\u0027\\n  on-primary: \u0027#ffffff\u0027\\n  primary-container: \u0027#2c4a6e\u0027\\n  on-primary-container: \u0027#9cbae4\u0027\\n  inverse-primary: \u0027#abc9f3\u0027\\n  secondary: \u0027#875200\u0027\\n  on-secondary: \u0027#ffffff\u0027\\n  secondary-container: \u0027#fead48\u0027\\n  on-secondary-container: \u0027#6f4300\u0027\\n  tertiary: \u0027#003b21\u0027\\n  on-tertiary: \u0027#ffffff\u0027\\n  tertiary-container: \u0027#005431\u0027\\n  on-tertiary-container: \u0027#7cc799\u0027\\n  error: \u0027#ba1a1a\u0027\\n  on-error: \u0027#ffffff\u0027\\n  error-container: \u0027#ffdad6\u0027\\n  on-error-container: \u0027#93000a\u0027\\n  primary-fixed: \u0027#d3e4ff\u0027\\n  primary-fixed-dim: \u0027#abc9f3\u0027\\n  on-primary-fixed: \u0027#001c38\u0027\\n  on-primary-fixed-variant: \u0027#2a486c\u0027\\n  secondary-fixed: \u0027#ffddba\u0027\\n  secondary-fixed-dim: \u0027#ffb866\u0027\\n  on-secondary-fixed: \u0027#2b1700\u0027\\n  on-secondary-fixed-variant: \u0027#673d00\u0027\\n  tertiary-fixed: \u0027#a6f3c2\u0027\\n  tertiary-fixed-dim: \u0027#8bd7a7\u0027\\n  on-tertiary-fixed: \u0027#002110\u0027\\n  on-tertiary-fixed-variant: \u0027#005230\u0027\\n  background: \u0027#faf9fc\u0027\\n  on-background: \u0027#1a1c1e\u0027\\n  surface-variant: \u0027#e3e2e5\u0027\\ntypography:\\n  headline-lg:\\n    fontFamily: Archivo Narrow\\n    fontSize: 24px\\n    fontWeight: \u0027600\u0027\\n    lineHeight: 32px\\n    letterSpacing: -0.01em\\n  headline-md:\\n    fontFamily: Archivo Narrow\\n    fontSize: 20px\\n    fontWeight: \u0027600\u0027\\n    lineHeight: 28px\\n  headline-sm:\\n    fontFamily: Archivo Narrow\\n    fontSize: 16px\\n    fontWeight: \u0027600\u0027\\n    lineHeight: 24px\\n  body-lg:\\n    fontFamily: Inter\\n    fontSize: 16px\\n    fontWeight: \u0027400\u0027\\n    lineHeight: 24px\\n  body-md:\\n    fontFamily: Inter\\n    fontSize: 14px\\n    fontWeight: \u0027400\u0027\\n    lineHeight: 20px\\n  body-sm:\\n    fontFamily: Inter\\n    fontSize: 12px\\n    fontWeight: \u0027400\u0027\\n    lineHeight: 18px\\n  label-caps:\\n    fontFamily: Archivo Narrow\\n    fontSize: 11px\\n    fontWeight: \u0027700\u0027\\n    lineHeight: 16px\\n    letterSpacing: 0.05em\\n  data-mono:\\n    fontFamily: IBM Plex Mono\\n    fontSize: 13px\\n    fontWeight: \u0027500\u0027\\n    lineHeight: 20px\\nrounded:\\n  sm: 0.125rem\\n  DEFAULT: 0.25rem\\n  md: 0.375rem\\n  lg: 0.5rem\\n  xl: 0.75rem\\n  full: 9999px\\nspacing:\\n  unit: 4px\\n  container-padding: 16px\\n  gutter: 12px\\n  row-height-dense: 32px\\n  row-height-standard: 40px\\n---\\n\\n## Brand \u0026 Style\\nThe design system is engineered for high-stakes industrial environments, drawing direct inspiration from avionics dashboards and precision instrumentation. The brand personality is authoritative, reliable, and strictly functional. It prioritizes information density and clarity over aesthetic decoration, ensuring that warehouse and production floor operators can process complex data streams with zero ambiguity.\\n\\nThe visual style is **Corporate / Modern** with a lean towards **Technical Minimalism**. It avoids all contemporary \\\"soft\\\" trends such as glassmorphism, shadows, or gradients. Instead, it relies on hairline borders, rigid grid structures, and a clear typographic hierarchy to create a sense of professional-grade stability. The UI should feel like a piece of high-end industrial equipment: rugged, precise, and efficient.\\n\\n## Colors\\nThe color palette is strictly utility-driven. The background uses a cool near-white to reduce eye strain under industrial lighting. \\n\\n- **Primary (Steel Blue):** Reserved for primary actions, navigation states, and structural identifiers.\\n- **Alert (Amber):** Used for caution, high-priority tasks, or items requiring immediate attention without being critical failures.\\n- **Success (Green):** Indicates completed cycles, active machinery, or valid data entry.\\n- **Error (Red):** Used for system failures, depleted inventory, or critical safety alerts.\\n- **Neutrals:** Text and borders use a high-contrast grayscale to maintain legibility in high-density data tables.\\n\\n## Typography\\nTypography is split by functional role to aid rapid scanning:\\n- **Headers \u0026 Labels:** Archivo Narrow provides a technical, space-efficient feel. Small caps are used for metadata labels to distinguish them from the data values they describe.\\n- **General UI \u0026 Tables:** Inter is used for its superior legibility at small sizes in dense tabular formats.\\n- **Technical Data:** IBM Plex Mono is mandated for all non-prose data including Serial Numbers, SKUs, Timestamps, and Coordinates to prevent character confusion (e.g., \u00270\u0027 vs \u0027O\u0027, \u00271\u0027 vs \u0027l\u0027).\\n\\n## Layout \u0026 Spacing\\nThe system utilizes a **fixed grid** approach with high-density spacing based on a 4px baseline. \\n\\n- **Desktop:** 12-column grid, 12px gutters, 24px outer margins. Panels are typically fixed-width or snap to column increments.\\n- **Data Density:** Vertical rhythm is tight. Standard table rows are 40px, while \\\"Dense\\\" modes (for large inventory lists) drop to 32px.\\n- **Structure:** Content is organized into \\\"Modules\\\" separated by 1px hairline borders (#E2E5E9). Negative space is used strategically to group related data, but overall whitespace is kept to a functional minimum to maximize visible information.\\n\\n## Elevation \u0026 Depth\\nDepth is communicated through **Tonal Layering** and **Borders** rather than shadows. \\n- **Level 0 (Background):** #F7F8FA.\\n- **Level 1 (Surface):** #FFFFFF – Used for cards, table bodies, and input fields.\\n- **Level 2 (Header/Overlay):** #F1F2F4 – Used for table headers and sidebars.\\n\\nSeparation is achieved through 1px solid borders. There are no shadows in the system. When an element is \\\"raised\\\" (like a modal), it is defined by a thicker 2px border or a high-contrast overlay, maintaining a flat, industrial aesthetic.\\n\\n## Shapes\\nThe shape language is rigid and geometric. \\n- **Standard Corners:** 4px radius for buttons, input fields, and small containers.\\n- **Large Containers:** 6px radius for primary dashboard modules.\\n- **Square:** 0px radius is acceptable for table cells and internal dividers to reinforce the \\\"instrument cluster\\\" appearance.\\n\\n## Components\\n- **Data Plate Header:** A specialized component for record views. A #2C4A6E top-border strip. Left-aligned: Serial ID in IBM Plex Mono (Bold). Right-aligned: 3-4 metadata clusters (e.g., Status, Priority) featuring a `label-caps` descriptor above a `body-md` value.\\n- **Buttons:** Solid #2C4A6E background with white text for primary actions. Secondary buttons use a 1px border with no fill. Labels must be verb-oriented (e.g., \\\"DISPATCH ORDER\\\").\\n- **Status Indicators:** A 8px solid circular dot using the system semantic colors (Green, Amber, Red) followed by `body-sm` text.\\n- **Input Fields:** Rectangular with 1px #E2E5E9 borders. On focus, the border changes to 1px #2C4A6E. No glow or shadow.\\n- **Data Tables:** No vertical lines between columns; use horizontal lines only (#E2E5E9). Header row uses #F1F2F4 background with `label-caps` text.\\n- **Chips/Badges:** Square-edged or 2px radius. Light tinted backgrounds with dark text for categorizing SKUs or Warehouse Zones.\",\"colorVariant\":\"FIDELITY\",\"overridePrimaryColor\":\"#2c4a6e\",\"overrideSecondaryColor\":\"#d98e2b\",\"overrideTertiaryColor\":\"#2f7a52\",\"spacingScale\":2,\"typography\":{\"body-lg\":{\"fontFamily\":\"Inter\",\"fontSize\":\"16px\",\"fontWeight\":\"400\",\"lineHeight\":\"24px\"},\"body-md\":{\"fontFamily\":\"Inter\",\"fontSize\":\"14px\",\"fontWeight\":\"400\",\"lineHeight\":\"20px\"},\"body-sm\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"400\",\"lineHeight\":\"18px\"},\"data-mono\":{\"fontFamily\":\"IBM Plex Mono\",\"fontSize\":\"13px\",\"fontWeight\":\"500\",\"lineHeight\":\"20px\"},\"headline-lg\":{\"fontFamily\":\"Archivo Narrow\",\"fontSize\":\"24px\",\"fontWeight\":\"600\",\"lineHeight\":\"32px\",\"letterSpacing\":\"-0.01em\"},\"headline-md\":{\"fontFamily\":\"Archivo Narrow\",\"fontSize\":\"20px\",\"fontWeight\":\"600\",\"lineHeight\":\"28px\"},\"headline-sm\":{\"fontFamily\":\"Archivo Narrow\",\"fontSize\":\"16px\",\"fontWeight\":\"600\",\"lineHeight\":\"24px\"},\"label-caps\":{\"fontFamily\":\"Archivo Narrow\",\"fontSize\":\"11px\",\"fontWeight\":\"700\",\"lineHeight\":\"16px\",\"letterSpacing\":\"0.05em\"}},\"spacing\":{\"container-padding\":\"16px\",\"gutter\":\"12px\",\"row-height-dense\":\"32px\",\"row-height-standard\":\"40px\",\"unit\":\"4px\"},\"headlineFontFamily\":\"Archivo Narrow\",\"bodyFontFamily\":\"Inter\",\"labelFontFamily\":\"Archivo Narrow\"},\"screenInstances\":[{\"id\":\"41cfcf2b9a1b4f628fa4d79aed034a5e\",\"sourceScreen\":\"projects/16391226028490069095/screens/41cfcf2b9a1b4f628fa4d79aed034a5e\",\"x\":1696,\"width\":1280,\"height\":1024},{\"id\":\"4555f0b0453b45b6b00b09358d7b9038\",\"sourceScreen\":\"projects/16391226028490069095/screens/4555f0b0453b45b6b00b09358d7b9038\",\"x\":1600,\"width\":32,\"height\":32},{\"id\":\"747b4fff3f284c2ebf49b5a437a6c211\",\"sourceScreen\":\"projects/16391226028490069095/screens/747b4fff3f284c2ebf49b5a437a6c211\",\"x\":7526,\"width\":390,\"height\":1037},{\"id\":\"7f9bc143be9f4e41ac33fe96c393f12b\",\"sourceScreen\":\"projects/16391226028490069095/screens/7f9bc143be9f4e41ac33fe96c393f12b\",\"x\":2368,\"y\":1458,\"width\":1280,\"height\":1024},{\"id\":\"9482609546f04a6c93acd9ba36dfecfc\",\"sourceScreen\":\"projects/16391226028490069095/screens/9482609546f04a6c93acd9ba36dfecfc\",\"x\":3034,\"y\":13,\"width\":1280,\"height\":1024},{\"id\":\"9a18dcfa278644abbddc26f8b4bd0c75\",\"sourceScreen\":\"projects/16391226028490069095/screens/9a18dcfa278644abbddc26f8b4bd0c75\",\"x\":4166,\"y\":1458,\"width\":390,\"height\":1263},{\"id\":\"assets_62a2108788024257afa60e53200aa9ed\",\"x\":229,\"y\":662,\"width\":960,\"height\":540,\"sourceAsset\":\"assets/62a2108788024257afa60e53200aa9ed\",\"type\":\"DESIGN_SYSTEM_INSTANCE\"},{\"id\":\"assets_8d854afa3b1a482083ccb9bd4d26e82e\",\"y\":1458,\"width\":960,\"height\":540,\"sourceAsset\":\"assets/8d854afa3b1a482083ccb9bd4d26e82e\",\"type\":\"DESIGN_SYSTEM_INSTANCE\"},{\"id\":\"bed0a7e732dc44ebbf14a594ac32690b\",\"sourceScreen\":\"projects/16391226028490069095/screens/bed0a7e732dc44ebbf14a594ac32690b\",\"x\":5728,\"width\":1280,\"height\":1024},{\"id\":\"c62cb5c7a99048c08fc5019aebd9c7d5\",\"sourceScreen\":\"projects/16391226028490069095/screens/c62cb5c7a99048c08fc5019aebd9c7d5\",\"x\":7980,\"width\":1280,\"height\":1024},{\"id\":\"c75f060908a24e8ab7a33a0e2132d810\",\"sourceScreen\":\"projects/16391226028490069095/screens/c75f060908a24e8ab7a33a0e2132d810\",\"x\":3712,\"y\":1458,\"width\":390,\"height\":1226},{\"id\":\"c97f024b994e41439e7dc28c1f457f63\",\"sourceScreen\":\"projects/16391226028490069095/screens/c97f024b994e41439e7dc28c1f457f63\",\"x\":7072,\"width\":390,\"height\":923},{\"id\":\"cda7ba0972ec4f639799b81471000e8b\",\"sourceScreen\":\"projects/16391226028490069095/screens/cda7ba0972ec4f639799b81471000e8b\",\"x\":1024,\"width\":512,\"height\":512},{\"id\":\"e6a9abcd9c2c4ef08b9712e082e895eb\",\"sourceScreen\":\"projects/16391226028490069095/screens/e6a9abcd9c2c4ef08b9712e082e895eb\",\"x\":4384,\"width\":1280,\"height\":1024},{\"id\":\"e9700e8d2f00427fa1c1f153136a79ba\",\"sourceScreen\":\"projects/16391226028490069095/screens/e9700e8d2f00427fa1c1f153136a79ba\",\"x\":1024,\"y\":1458,\"width\":1280,\"height\":1024}],\"metadata\":{\"userRole\":\"OWNER\"}},{\"name\":\"projects/15805874292672904120\",\"title\":\"Disintegration Tester Main\",\"visibility\":\"PRIVATE\",\"createTime\":\"2025-10-29T07:22:04.621774Z\",\"updateTime\":\"2025-10-29T07:24:10.146583Z\",\"projectType\":\"TEXT_TO_UI_PRO\",\"thumbnailScreenshot\":{\"name\":\"projects/15805874292672904120/files/744138e8905946bebe050045766e53b1\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLsYw4XGbcr6-8QepNRvgzXSd_uCWynmQ4Ewsl4CnbNFRjbkYzTjGhWkI5A1vBfLVglXFlFBfGvYjs3LvkrW2z9QWoh6fJKHOSufO48_DOivNALO5d9EVCzsPD-PPat2vngZeaC7Iw_mPGLag5PtUP9W32IdVhhefYwbv8rnz-R-P1IyxmF_z7NRb3wC-SM2IVqod6Waf08cbdnsdFCYb6jNf1jAJWamjgMHUhtcAruhOifqKdhqkMFZerc\"},\"origin\":\"STITCH\",\"deviceType\":\"DESKTOP\",\"designTheme\":{\"colorMode\":\"LIGHT\",\"font\":\"INTER\",\"roundness\":\"ROUND_EIGHT\",\"customColor\":\"#137fec\",\"saturation\":2},\"screenInstances\":[{\"id\":\"11333365586716718020\",\"sourceScreen\":\"projects/15805874292672904120/screens/11333365586716718020\",\"x\":32,\"y\":74,\"width\":1024,\"height\":600},{\"id\":\"7718196131374af69685ef7b1075a98b\",\"sourceScreen\":\"projects/15805874292672904120/screens/7718196131374af69685ef7b1075a98b\",\"x\":-123,\"y\":1380,\"width\":1280,\"height\":1633},{\"id\":\"b2e810a797ae4f7ea1bb1f481219ee8f\",\"sourceScreen\":\"projects/15805874292672904120/screens/b2e810a797ae4f7ea1bb1f481219ee8f\",\"y\":856}],\"metadata\":{\"userRole\":\"OWNER\"}}]}",
+                                       "type":  "text"
+                                   }
+                               ],
+                   "structuredContent":  {
+                                             "projects":  [
+                                                              {
+                                                                  "createTime":  "2026-07-09T18:38:40.057846Z",
+                                                                  "designTheme":  {
+                                                                                      "bodyFont":  "INTER",
+                                                                                      "bodyFontFamily":  "Inter",
+                                                                                      "colorMode":  "LIGHT",
+                                                                                      "colorVariant":  "FIDELITY",
+                                                                                      "customColor":  "#e65100",
+                                                                                      "designMd":  "---\nname: Warm \u0026 Professional Table\ncolors:\n  surface: \u0027#fbf9f1\u0027\n  surface-dim: \u0027#dcdad2\u0027\n  surface-bright: \u0027#fbf9f1\u0027\n  surface-container-lowest: \u0027#ffffff\u0027\n  surface-container-low: \u0027#f5f4ec\u0027\n  surface-container: \u0027#f0eee6\u0027\n  surface-container-high: \u0027#eae8e0\u0027\n  surface-container-highest: \u0027#e4e3db\u0027\n  on-surface: \u0027#1b1c17\u0027\n  on-surface-variant: \u0027#5a4138\u0027\n  inverse-surface: \u0027#30312c\u0027\n  inverse-on-surface: \u0027#f3f1e9\u0027\n  outline: \u0027#8f7066\u0027\n  outline-variant: \u0027#e3bfb2\u0027\n  surface-tint: \u0027#a83900\u0027\n  primary: \u0027#a43700\u0027\n  on-primary: \u0027#ffffff\u0027\n  primary-container: \u0027#cd4700\u0027\n  on-primary-container: \u0027#fffbff\u0027\n  inverse-primary: \u0027#ffb59a\u0027\n  secondary: \u0027#2a6b2c\u0027\n  on-secondary: \u0027#ffffff\u0027\n  secondary-container: \u0027#acf4a4\u0027\n  on-secondary-container: \u0027#307231\u0027\n  tertiary: \u0027#b6171e\u0027\n  on-tertiary: \u0027#ffffff\u0027\n  tertiary-container: \u0027#da3433\u0027\n  on-tertiary-container: \u0027#fffbff\u0027\n  error: \u0027#ba1a1a\u0027\n  on-error: \u0027#ffffff\u0027\n  error-container: \u0027#ffdad6\u0027\n  on-error-container: \u0027#93000a\u0027\n  primary-fixed: \u0027#ffdbcf\u0027\n  primary-fixed-dim: \u0027#ffb59a\u0027\n  on-primary-fixed: \u0027#380d00\u0027\n  on-primary-fixed-variant: \u0027#802a00\u0027\n  secondary-fixed: \u0027#acf4a4\u0027\n  secondary-fixed-dim: \u0027#91d78a\u0027\n  on-secondary-fixed: \u0027#002203\u0027\n  on-secondary-fixed-variant: \u0027#0c5216\u0027\n  tertiary-fixed: \u0027#ffdad6\u0027\n  tertiary-fixed-dim: \u0027#ffb3ac\u0027\n  on-tertiary-fixed: \u0027#410003\u0027\n  on-tertiary-fixed-variant: \u0027#930010\u0027\n  background: \u0027#fbf9f1\u0027\n  on-background: \u0027#1b1c17\u0027\n  surface-variant: \u0027#e4e3db\u0027\ntypography:\n  headline-lg:\n    fontFamily: Inter\n    fontSize: 32px\n    fontWeight: \u0027700\u0027\n    lineHeight: 40px\n    letterSpacing: -0.02em\n  headline-lg-mobile:\n    fontFamily: Inter\n    fontSize: 26px\n    fontWeight: \u0027700\u0027\n    lineHeight: 32px\n    letterSpacing: -0.02em\n  headline-md:\n    fontFamily: Inter\n    fontSize: 20px\n    fontWeight: \u0027600\u0027\n    lineHeight: 28px\n  body-lg:\n    fontFamily: Inter\n    fontSize: 18px\n    fontWeight: \u0027400\u0027\n    lineHeight: 26px\n  body-md:\n    fontFamily: Inter\n    fontSize: 16px\n    fontWeight: \u0027400\u0027\n    lineHeight: 24px\n  label-lg:\n    fontFamily: Inter\n    fontSize: 14px\n    fontWeight: \u0027600\u0027\n    lineHeight: 20px\n    letterSpacing: 0.01em\n  label-sm:\n    fontFamily: Inter\n    fontSize: 12px\n    fontWeight: \u0027500\u0027\n    lineHeight: 16px\nrounded:\n  sm: 0.25rem\n  DEFAULT: 0.5rem\n  md: 0.75rem\n  lg: 1rem\n  xl: 1.5rem\n  full: 9999px\nspacing:\n  base: 8px\n  xs: 4px\n  sm: 12px\n  md: 16px\n  lg: 24px\n  xl: 32px\n  container-max: 1200px\n  gutter: 16px\n  margin-mobile: 16px\n  margin-desktop: 40px\n---\n\n## Brand \u0026 Style\n\nThis design system is built for a high-utility, high-trust restaurant ordering experience tailored to the Indian market. The brand personality is warm, appetizing, and extremely reliable. It avoids unnecessary visual noise to focus on clarity and efficiency, ensuring a zero learning curve for users across all demographics.\n\nThe aesthetic follows a **Refined Minimalism** approach. It utilizes generous whitespace to reduce cognitive load during a hungry state. The interface feels \"warm\" rather than \"clinical\" by using a soft off-white base, creating a digital environment that mimics a clean, physical menu. High-contrast elements are used strategically to guide the user toward the checkout without distraction.\n\n## Colors\n\nThe palette is designed to stimulate appetite and ensure accessibility. \n\n- **Primary (#E65100):** A deep, confident orange used exclusively for primary calls-to-action (CTAs), progress indicators, and active states.\n- **Secondary (#1B5E20):** A forest green dedicated to \"Veg\" indicators and success messaging, providing a high-contrast and culturally familiar cue.\n- **Tertiary (#D32F2F):** A deep red reserved strictly for \"Non-Veg\" indicators and error states.\n- **Neutral Base (#FFFDF5):** A warm off-white/cream background that reduces screen glare and provides a premium, inviting feel compared to pure white.\n- **Surface (#FFFFFF):** Pure white is used for elevated cards and input fields to create subtle depth against the cream background.\n\n## Typography\n\nThe design system uses **Inter** for its exceptional legibility and neutral, professional character. \n\n- **Scale:** Type sizes are intentionally larger than standard web defaults to accommodate varied lighting conditions in restaurants and ensure readability for all age groups.\n- **Hierarchy:** High weight contrast (700 for headlines vs 400 for body) is used to make the menu easily scannable.\n- **Readability:** Line heights are generous (1.5x for body text) to prevent text from feeling cramped, especially in dish descriptions.\n\n## Layout \u0026 Spacing\n\nThe system uses a **Fluid Grid** model with a strict 8px spacing scale. \n\n- **Mobile First:** Given the use case, the layout is optimized for thumb-reachability. All critical actions (Add to Cart, View Basket) are placed in a fixed bottom container.\n- **Grid:** A 12-column grid is used for desktop, collapsing to a single-column list or two-column grid for mobile food items.\n- **Safe Zones:** A minimum 16px margin is maintained on all mobile edges to prevent accidental touches near the bezel.\n- **Negative Space:** Generous vertical spacing (24px+) is used between category sections (e.g., \"Starters\" to \"Main Course\") to provide clear visual separation without relying on heavy dividers.\n\n## Elevation \u0026 Depth\n\nTo maintain a clean and professional look, this design system avoids heavy shadows. \n\n- **Surface Tiers:** Depth is primarily communicated through color blocking. Pure white cards sit on the #FFFDF5 cream background.\n- **Soft Elevation:** Only high-priority interactive elements (like the floating \"View Cart\" button or active modals) use a very soft, diffused ambient shadow (10% opacity, 12px blur) to suggest they are \"floating\" above the menu.\n- **Outlines:** Inactive or secondary elements use a subtle 1px border (#E0DDCF) instead of shadows to maintain a flat, modern aesthetic.\n\n## Shapes\n\nThe shape language is **Rounded**, conveying friendliness and modern professionalism. \n\n- **Standard Radius:** 8px (0.5rem) is the default for buttons, cards, and input fields.\n- **Large Radius:** 16px (1rem) is used for bottom sheets and large container modals.\n- **Circular:** Used exclusively for \"Veg/Non-Veg\" status dots and quantity increment buttons to make them feel tactile and distinct.\n\n## Components\n\n- **Buttons:** Primary buttons use the Deep Orange background with white text. They must have a minimum height of 48px to ensure easy tapping. Secondary buttons use an outlined style.\n- **Menu Cards:** Use a pure white surface. The Veg/Non-Veg indicator (a square with a circle inside, following Indian FSSAI standards) must be placed prominently in the top left or next to the item name.\n- **Quantity Pickers:** Large \"Add\" buttons that transform into `- 1 +` controls once selected. These should be high-contrast and placed at the bottom right of the card for easy thumb access.\n- **Sticky Bottom Bar:** A persistent container for \"View Cart\" and \"Total\" that sits at the very bottom of the viewport on mobile, utilizing the Primary Color.\n- **Chips:** Used for quick filters like \"Bestseller,\" \"Must Try,\" or \"Spicy.\" These should use a light tint of the primary color with dark text.\n- **Input Fields:** Clean, white backgrounds with 1px #E0DDCF borders. Labels should be persistent or use high-contrast placeholders to ensure clarity during the checkout process.",
+                                                                                      "font":  "INTER",
+                                                                                      "headlineFont":  "INTER",
+                                                                                      "headlineFontFamily":  "Inter",
+                                                                                      "labelFont":  "INTER",
+                                                                                      "labelFontFamily":  "Inter",
+                                                                                      "namedColors":  {
+                                                                                                          "background":  "#fbf9f1",
+                                                                                                          "error":  "#ba1a1a",
+                                                                                                          "error_container":  "#ffdad6",
+                                                                                                          "inverse_on_surface":  "#f3f1e9",
+                                                                                                          "inverse_primary":  "#ffb59a",
+                                                                                                          "inverse_surface":  "#30312c",
+                                                                                                          "on_background":  "#1b1c17",
+                                                                                                          "on_error":  "#ffffff",
+                                                                                                          "on_error_container":  "#93000a",
+                                                                                                          "on_primary":  "#ffffff",
+                                                                                                          "on_primary_container":  "#fffbff",
+                                                                                                          "on_primary_fixed":  "#380d00",
+                                                                                                          "on_primary_fixed_variant":  "#802a00",
+                                                                                                          "on_secondary":  "#ffffff",
+                                                                                                          "on_secondary_container":  "#307231",
+                                                                                                          "on_secondary_fixed":  "#002203",
+                                                                                                          "on_secondary_fixed_variant":  "#0c5216",
+                                                                                                          "on_surface":  "#1b1c17",
+                                                                                                          "on_surface_variant":  "#5a4138",
+                                                                                                          "on_tertiary":  "#ffffff",
+                                                                                                          "on_tertiary_container":  "#fffbff",
+                                                                                                          "on_tertiary_fixed":  "#410003",
+                                                                                                          "on_tertiary_fixed_variant":  "#930010",
+                                                                                                          "outline":  "#8f7066",
+                                                                                                          "outline_variant":  "#e3bfb2",
+                                                                                                          "primary":  "#a43700",
+                                                                                                          "primary_container":  "#cd4700",
+                                                                                                          "primary_fixed":  "#ffdbcf",
+                                                                                                          "primary_fixed_dim":  "#ffb59a",
+                                                                                                          "secondary":  "#2a6b2c",
+                                                                                                          "secondary_container":  "#acf4a4",
+                                                                                                          "secondary_fixed":  "#acf4a4",
+                                                                                                          "secondary_fixed_dim":  "#91d78a",
+                                                                                                          "surface":  "#fbf9f1",
+                                                                                                          "surface_bright":  "#fbf9f1",
+                                                                                                          "surface_container":  "#f0eee6",
+                                                                                                          "surface_container_high":  "#eae8e0",
+                                                                                                          "surface_container_highest":  "#e4e3db",
+                                                                                                          "surface_container_low":  "#f5f4ec",
+                                                                                                          "surface_container_lowest":  "#ffffff",
+                                                                                                          "surface_dim":  "#dcdad2",
+                                                                                                          "surface_tint":  "#a83900",
+                                                                                                          "surface_variant":  "#e4e3db",
+                                                                                                          "tertiary":  "#b6171e",
+                                                                                                          "tertiary_container":  "#da3433",
+                                                                                                          "tertiary_fixed":  "#ffdad6",
+                                                                                                          "tertiary_fixed_dim":  "#ffb3ac"
+                                                                                                      },
+                                                                                      "overrideNeutralColor":  "#fffdf5",
+                                                                                      "overridePrimaryColor":  "#e65100",
+                                                                                      "overrideSecondaryColor":  "#1b5e20",
+                                                                                      "overrideTertiaryColor":  "#d32f2f",
+                                                                                      "roundness":  "ROUND_EIGHT",
+                                                                                      "spacing":  {
+                                                                                                      "base":  "8px",
+                                                                                                      "container-max":  "1200px",
+                                                                                                      "gutter":  "16px",
+                                                                                                      "lg":  "24px",
+                                                                                                      "margin-desktop":  "40px",
+                                                                                                      "margin-mobile":  "16px",
+                                                                                                      "md":  "16px",
+                                                                                                      "sm":  "12px",
+                                                                                                      "xl":  "32px",
+                                                                                                      "xs":  "4px"
+                                                                                                  },
+                                                                                      "spacingScale":  2,
+                                                                                      "typography":  {
+                                                                                                         "body-lg":  {
+                                                                                                                         "fontFamily":  "Inter",
+                                                                                                                         "fontSize":  "18px",
+                                                                                                                         "fontWeight":  "400",
+                                                                                                                         "lineHeight":  "26px"
+                                                                                                                     },
+                                                                                                         "body-md":  {
+                                                                                                                         "fontFamily":  "Inter",
+                                                                                                                         "fontSize":  "16px",
+                                                                                                                         "fontWeight":  "400",
+                                                                                                                         "lineHeight":  "24px"
+                                                                                                                     },
+                                                                                                         "headline-lg":  {
+                                                                                                                             "fontFamily":  "Inter",
+                                                                                                                             "fontSize":  "32px",
+                                                                                                                             "fontWeight":  "700",
+                                                                                                                             "letterSpacing":  "-0.02em",
+                                                                                                                             "lineHeight":  "40px"
+                                                                                                                         },
+                                                                                                         "headline-lg-mobile":  {
+                                                                                                                                    "fontFamily":  "Inter",
+                                                                                                                                    "fontSize":  "26px",
+                                                                                                                                    "fontWeight":  "700",
+                                                                                                                                    "letterSpacing":  "-0.02em",
+                                                                                                                                    "lineHeight":  "32px"
+                                                                                                                                },
+                                                                                                         "headline-md":  {
+                                                                                                                             "fontFamily":  "Inter",
+                                                                                                                             "fontSize":  "20px",
+                                                                                                                             "fontWeight":  "600",
+                                                                                                                             "lineHeight":  "28px"
+                                                                                                                         },
+                                                                                                         "label-lg":  {
+                                                                                                                          "fontFamily":  "Inter",
+                                                                                                                          "fontSize":  "14px",
+                                                                                                                          "fontWeight":  "600",
+                                                                                                                          "letterSpacing":  "0.01em",
+                                                                                                                          "lineHeight":  "20px"
+                                                                                                                      },
+                                                                                                         "label-sm":  {
+                                                                                                                          "fontFamily":  "Inter",
+                                                                                                                          "fontSize":  "12px",
+                                                                                                                          "fontWeight":  "500",
+                                                                                                                          "lineHeight":  "16px"
+                                                                                                                      }
+                                                                                                     }
+                                                                                  },
+                                                                  "deviceType":  "MOBILE",
+                                                                  "metadata":  {
+                                                                                   "userRole":  "OWNER"
+                                                                               },
+                                                                  "name":  "projects/11666165661317078688",
+                                                                  "origin":  "STITCH",
+                                                                  "projectType":  "TEXT_TO_UI_PRO",
+                                                                  "screenInstances":  [
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "043434a7b4644e75a7c0a03a38ed5213",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/043434a7b4644e75a7c0a03a38ed5213",
+                                                                                              "width":  1280,
+                                                                                              "x":  8313,
+                                                                                              "y":  6114
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "0dd261ec54974cccab7a00eccc15ac42",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/0dd261ec54974cccab7a00eccc15ac42",
+                                                                                              "width":  1280,
+                                                                                              "x":  5121,
+                                                                                              "y":  4511
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  512,
+                                                                                              "hidden":  true,
+                                                                                              "id":  "10543b73df874f179dd8be6c435f6e94",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/10543b73df874f179dd8be6c435f6e94",
+                                                                                              "width":  512,
+                                                                                              "x":  1473,
+                                                                                              "y":  -221
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  884,
+                                                                                              "hidden":  true,
+                                                                                              "id":  "157f565ab8f34d97a674e42129afd4be",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/157f565ab8f34d97a674e42129afd4be",
+                                                                                              "width":  390,
+                                                                                              "x":  5485,
+                                                                                              "y":  1222
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  884,
+                                                                                              "hidden":  true,
+                                                                                              "id":  "2255ce18d6e242fc802a99b05d13bb7a",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/2255ce18d6e242fc802a99b05d13bb7a",
+                                                                                              "width":  390,
+                                                                                              "x":  2846,
+                                                                                              "y":  1073
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "227377caf76f47c8a753400e287177af",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/227377caf76f47c8a753400e287177af",
+                                                                                              "width":  1280,
+                                                                                              "x":  2433,
+                                                                                              "y":  4511
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "250c04f40aac4ca28ac01fe271608ebc",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/250c04f40aac4ca28ac01fe271608ebc",
+                                                                                              "width":  1280,
+                                                                                              "x":  1024,
+                                                                                              "y":  3186
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1320,
+                                                                                              "id":  "254994379dc043dfa13edf6b1a99b661",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/254994379dc043dfa13edf6b1a99b661",
+                                                                                              "width":  390,
+                                                                                              "x":  1938,
+                                                                                              "y":  1073
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  390,
+                                                                                              "hidden":  true,
+                                                                                              "id":  "2b507c47441f44b781091129e2f37a28",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/2b507c47441f44b781091129e2f37a28",
+                                                                                              "width":  390,
+                                                                                              "x":  6720,
+                                                                                              "y":  4466
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  884,
+                                                                                              "hidden":  true,
+                                                                                              "id":  "3e935233ee4d4e46875128903aaffd99",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/3e935233ee4d4e46875128903aaffd99",
+                                                                                              "width":  390,
+                                                                                              "x":  5073,
+                                                                                              "y":  2017
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "4a8845dee6d146eaa6925f9aaf0eac6a",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/4a8845dee6d146eaa6925f9aaf0eac6a",
+                                                                                              "width":  1280,
+                                                                                              "x":  1089,
+                                                                                              "y":  4511
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "4ba57a1b9ee345daa1d1c74df3d886cd",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/4ba57a1b9ee345daa1d1c74df3d886cd",
+                                                                                              "width":  1280,
+                                                                                              "x":  2368,
+                                                                                              "y":  3186
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  884,
+                                                                                              "hidden":  true,
+                                                                                              "id":  "4c2dd45354414f8e9a96103b10489777",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/4c2dd45354414f8e9a96103b10489777",
+                                                                                              "width":  390,
+                                                                                              "x":  6117,
+                                                                                              "y":  1235
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "4d6d3198036045338b85b366defb8d15",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/4d6d3198036045338b85b366defb8d15",
+                                                                                              "width":  1280,
+                                                                                              "x":  3712,
+                                                                                              "y":  3186
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  884,
+                                                                                              "hidden":  true,
+                                                                                              "id":  "58868269044c47f0beaca0b31a1ca541",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/58868269044c47f0beaca0b31a1ca541",
+                                                                                              "width":  390,
+                                                                                              "x":  4438,
+                                                                                              "y":  1845
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "6a05f56767e94d3ca3d0225ca8dafb5a",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/6a05f56767e94d3ca3d0225ca8dafb5a",
+                                                                                              "width":  1280,
+                                                                                              "x":  3712,
+                                                                                              "y":  6256
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  884,
+                                                                                              "id":  "795bd0cee48a41b2a1a6ad334fb6f9d9",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/795bd0cee48a41b2a1a6ad334fb6f9d9",
+                                                                                              "width":  390,
+                                                                                              "x":  2943,
+                                                                                              "y":  -242
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "7ef40a66875941d395f33f87d00b5df4",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/7ef40a66875941d395f33f87d00b5df4",
+                                                                                              "width":  1280,
+                                                                                              "x":  -254,
+                                                                                              "y":  4511
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1006,
+                                                                                              "id":  "7fef08bd84454183aaeffbf27ce3e3a8",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/7fef08bd84454183aaeffbf27ce3e3a8",
+                                                                                              "width":  390,
+                                                                                              "x":  2392,
+                                                                                              "y":  1073
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "80c6790baa8d4183b6b7c16913db9052",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/80c6790baa8d4183b6b7c16913db9052",
+                                                                                              "width":  1280,
+                                                                                              "x":  3777,
+                                                                                              "y":  4511
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  884,
+                                                                                              "id":  "87bf2fad3cd34a0887f5b21476e01400",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/87bf2fad3cd34a0887f5b21476e01400",
+                                                                                              "width":  390,
+                                                                                              "x":  2049,
+                                                                                              "y":  -221
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  884,
+                                                                                              "hidden":  true,
+                                                                                              "id":  "936e92dba5a04f31b3a7e8dc89540115",
+                                                                                              "isResized":  true,
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/936e92dba5a04f31b3a7e8dc89540115",
+                                                                                              "width":  390,
+                                                                                              "x":  5527,
+                                                                                              "y":  2017
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  512,
+                                                                                              "id":  "a582e1cb-dbaf-415d-9fd0-88471a95964a",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/12551465583412660738",
+                                                                                              "type":  "SCREEN_INSTANCE",
+                                                                                              "width":  512,
+                                                                                              "x":  -36,
+                                                                                              "y":  1386
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1857,
+                                                                                              "id":  "a9f114cdffac452ab93f9cd60fe0d357",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/a9f114cdffac452ab93f9cd60fe0d357",
+                                                                                              "width":  390,
+                                                                                              "x":  1030,
+                                                                                              "y":  1073
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  540,
+                                                                                              "id":  "assets_1d4bb30d6575435db3afb0f0a8226c9e",
+                                                                                              "sourceAsset":  "assets/1d4bb30d6575435db3afb0f0a8226c9e",
+                                                                                              "type":  "DESIGN_SYSTEM_INSTANCE",
+                                                                                              "width":  960,
+                                                                                              "x":  -1108,
+                                                                                              "y":  3312
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  540,
+                                                                                              "hidden":  true,
+                                                                                              "id":  "assets_82ed2fc5e79e4dbc8cebf1228c9ad354",
+                                                                                              "sourceAsset":  "assets/82ed2fc5e79e4dbc8cebf1228c9ad354",
+                                                                                              "type":  "DESIGN_SYSTEM_INSTANCE",
+                                                                                              "width":  960,
+                                                                                              "x":  858,
+                                                                                              "y":  79
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  540,
+                                                                                              "id":  "assets_cd1ab93bea5b4351ab52ca7cd73c9a04",
+                                                                                              "sourceAsset":  "assets/cd1ab93bea5b4351ab52ca7cd73c9a04",
+                                                                                              "type":  "DESIGN_SYSTEM_INSTANCE",
+                                                                                              "width":  960,
+                                                                                              "x":  248,
+                                                                                              "y":  39
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "bf37b599c57e4353bf07f917b4c3e509",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/bf37b599c57e4353bf07f917b4c3e509",
+                                                                                              "width":  1280,
+                                                                                              "x":  -870,
+                                                                                              "y":  6222
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  512,
+                                                                                              "hidden":  true,
+                                                                                              "id":  "c0585bfc91884161b276a2de4adb8de0",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/c0585bfc91884161b276a2de4adb8de0",
+                                                                                              "width":  512,
+                                                                                              "y":  1073
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "c186f7e08a434df9adefb18835e65e73",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/c186f7e08a434df9adefb18835e65e73",
+                                                                                              "width":  1280,
+                                                                                              "x":  2126,
+                                                                                              "y":  6222
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  884,
+                                                                                              "hidden":  true,
+                                                                                              "id":  "c6579c3b771a47ffa0fa7436dcc007e9",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/c6579c3b771a47ffa0fa7436dcc007e9",
+                                                                                              "width":  390,
+                                                                                              "x":  4901,
+                                                                                              "y":  1269
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  884,
+                                                                                              "id":  "c8abcb2ee29b42e19dcb0515a780d7e3",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/c8abcb2ee29b42e19dcb0515a780d7e3",
+                                                                                              "width":  390,
+                                                                                              "x":  1583,
+                                                                                              "y":  -260
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  884,
+                                                                                              "id":  "c8abcb2ee29b42e19dcb0515a780d7e3-1783624850307",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/3633661772997983817",
+                                                                                              "width":  390,
+                                                                                              "x":  626,
+                                                                                              "y":  1123
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "cb4a2a6d83414244a046139e3be22946",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/cb4a2a6d83414244a046139e3be22946",
+                                                                                              "width":  1280,
+                                                                                              "x":  6740,
+                                                                                              "y":  6151
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1033,
+                                                                                              "id":  "d5e2b9fee90d47c8bffc55ea1f457796",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/c3241f4c57d84887b8e750e93309cbdb",
+                                                                                              "width":  390,
+                                                                                              "x":  3382,
+                                                                                              "y":  -249
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "d63690306ccc424db68f0c9e2600b0c7",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/d63690306ccc424db68f0c9e2600b0c7",
+                                                                                              "width":  1280,
+                                                                                              "x":  5227,
+                                                                                              "y":  6193
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "dac943eb53b94be4861854c2c657d39b",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/dac943eb53b94be4861854c2c657d39b",
+                                                                                              "width":  1280,
+                                                                                              "x":  9816,
+                                                                                              "y":  6161
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  884,
+                                                                                              "hidden":  true,
+                                                                                              "id":  "de77ee6b9f2544c7bbe928145b343cda",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/4900350f7c874052a2983e9d833f4bcc",
+                                                                                              "width":  390,
+                                                                                              "x":  1019,
+                                                                                              "y":  -221
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  824,
+                                                                                              "id":  "e4dd7b1d9ef84459a803e7f7d296920c",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/e480f10a289849dc9bb3bc9b697d9460",
+                                                                                              "width":  390,
+                                                                                              "x":  4321,
+                                                                                              "y":  -230
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  884,
+                                                                                              "id":  "e6ac8e2ba229405d87341a54a13b379f",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/e6ac8e2ba229405d87341a54a13b379f",
+                                                                                              "width":  390,
+                                                                                              "x":  2503,
+                                                                                              "y":  -221
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  916,
+                                                                                              "id":  "eaabc0f710c243e58c66656619917a25",
+                                                                                              "isResized":  true,
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/a8bc2858181343d880c7a7ef6fef8ab1",
+                                                                                              "width":  426,
+                                                                                              "x":  3828,
+                                                                                              "y":  -235
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1153,
+                                                                                              "id":  "ed2fa73033aa4798bd78c9e9223d9083",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/ed2fa73033aa4798bd78c9e9223d9083",
+                                                                                              "width":  390,
+                                                                                              "x":  1484,
+                                                                                              "y":  1073
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "fe467afda50042d78a54d4b27e7f8ccb",
+                                                                                              "sourceScreen":  "projects/11666165661317078688/screens/fe467afda50042d78a54d4b27e7f8ccb",
+                                                                                              "width":  1280,
+                                                                                              "x":  617,
+                                                                                              "y":  6286
+                                                                                          }
+                                                                                      ],
+                                                                  "thumbnailScreenshot":  {
+                                                                                              "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLvQ1H4bFDrTKSnDK_f2K-3uh2lvkCvr3yko2lEGGcPZY_NJcsyhTq9n7GFfQ25sMhg8w_gW-ZkwlKXIkpx409hCdn6PlJZFzYr-h_7QJUSxejuMV0BaZipjyrYL4-K_pGuGq08yxBJgmk-ezUOT81LwsryixseuKW3B1NPquUnytmtBLenfr71MIsfNwObYv-Md9cb-Ut4oLkVgPhwtU_QEDN5Bq1WCSnBOL8ld1e4ir-jx3FsebagQpfhy",
+                                                                                              "name":  "projects/11666165661317078688/files/bae74cf109e14f5a97571e31d9164676"
+                                                                                          },
+                                                                  "title":  "QuickDine QR Ordering",
+                                                                  "updateTime":  "2026-07-09T19:44:57.044417Z",
+                                                                  "visibility":  "PRIVATE"
+                                                              },
+                                                              {
+                                                                  "createTime":  "2026-07-02T06:41:32.025981Z",
+                                                                  "designTheme":  {
+                                                                                      "bodyFont":  "INTER",
+                                                                                      "bodyFontFamily":  "Inter",
+                                                                                      "colorMode":  "LIGHT",
+                                                                                      "colorVariant":  "FIDELITY",
+                                                                                      "customColor":  "#2c4a6e",
+                                                                                      "designMd":  "---\nname: Industrial Precision System\ncolors:\n  surface: \u0027#faf9fc\u0027\n  surface-dim: \u0027#dad9dd\u0027\n  surface-bright: \u0027#faf9fc\u0027\n  surface-container-lowest: \u0027#ffffff\u0027\n  surface-container-low: \u0027#f4f3f6\u0027\n  surface-container: \u0027#eeedf1\u0027\n  surface-container-high: \u0027#e9e8eb\u0027\n  surface-container-highest: \u0027#e3e2e5\u0027\n  on-surface: \u0027#1a1c1e\u0027\n  on-surface-variant: \u0027#43474e\u0027\n  inverse-surface: \u0027#2f3033\u0027\n  inverse-on-surface: \u0027#f1f0f4\u0027\n  outline: \u0027#73777f\u0027\n  outline-variant: \u0027#c3c6cf\u0027\n  surface-tint: \u0027#436085\u0027\n  primary: \u0027#123356\u0027\n  on-primary: \u0027#ffffff\u0027\n  primary-container: \u0027#2c4a6e\u0027\n  on-primary-container: \u0027#9cbae4\u0027\n  inverse-primary: \u0027#abc9f3\u0027\n  secondary: \u0027#875200\u0027\n  on-secondary: \u0027#ffffff\u0027\n  secondary-container: \u0027#fead48\u0027\n  on-secondary-container: \u0027#6f4300\u0027\n  tertiary: \u0027#003b21\u0027\n  on-tertiary: \u0027#ffffff\u0027\n  tertiary-container: \u0027#005431\u0027\n  on-tertiary-container: \u0027#7cc799\u0027\n  error: \u0027#ba1a1a\u0027\n  on-error: \u0027#ffffff\u0027\n  error-container: \u0027#ffdad6\u0027\n  on-error-container: \u0027#93000a\u0027\n  primary-fixed: \u0027#d3e4ff\u0027\n  primary-fixed-dim: \u0027#abc9f3\u0027\n  on-primary-fixed: \u0027#001c38\u0027\n  on-primary-fixed-variant: \u0027#2a486c\u0027\n  secondary-fixed: \u0027#ffddba\u0027\n  secondary-fixed-dim: \u0027#ffb866\u0027\n  on-secondary-fixed: \u0027#2b1700\u0027\n  on-secondary-fixed-variant: \u0027#673d00\u0027\n  tertiary-fixed: \u0027#a6f3c2\u0027\n  tertiary-fixed-dim: \u0027#8bd7a7\u0027\n  on-tertiary-fixed: \u0027#002110\u0027\n  on-tertiary-fixed-variant: \u0027#005230\u0027\n  background: \u0027#faf9fc\u0027\n  on-background: \u0027#1a1c1e\u0027\n  surface-variant: \u0027#e3e2e5\u0027\ntypography:\n  headline-lg:\n    fontFamily: Archivo Narrow\n    fontSize: 24px\n    fontWeight: \u0027600\u0027\n    lineHeight: 32px\n    letterSpacing: -0.01em\n  headline-md:\n    fontFamily: Archivo Narrow\n    fontSize: 20px\n    fontWeight: \u0027600\u0027\n    lineHeight: 28px\n  headline-sm:\n    fontFamily: Archivo Narrow\n    fontSize: 16px\n    fontWeight: \u0027600\u0027\n    lineHeight: 24px\n  body-lg:\n    fontFamily: Inter\n    fontSize: 16px\n    fontWeight: \u0027400\u0027\n    lineHeight: 24px\n  body-md:\n    fontFamily: Inter\n    fontSize: 14px\n    fontWeight: \u0027400\u0027\n    lineHeight: 20px\n  body-sm:\n    fontFamily: Inter\n    fontSize: 12px\n    fontWeight: \u0027400\u0027\n    lineHeight: 18px\n  label-caps:\n    fontFamily: Archivo Narrow\n    fontSize: 11px\n    fontWeight: \u0027700\u0027\n    lineHeight: 16px\n    letterSpacing: 0.05em\n  data-mono:\n    fontFamily: IBM Plex Mono\n    fontSize: 13px\n    fontWeight: \u0027500\u0027\n    lineHeight: 20px\nrounded:\n  sm: 0.125rem\n  DEFAULT: 0.25rem\n  md: 0.375rem\n  lg: 0.5rem\n  xl: 0.75rem\n  full: 9999px\nspacing:\n  unit: 4px\n  container-padding: 16px\n  gutter: 12px\n  row-height-dense: 32px\n  row-height-standard: 40px\n---\n\n## Brand \u0026 Style\nThe design system is engineered for high-stakes industrial environments, drawing direct inspiration from avionics dashboards and precision instrumentation. The brand personality is authoritative, reliable, and strictly functional. It prioritizes information density and clarity over aesthetic decoration, ensuring that warehouse and production floor operators can process complex data streams with zero ambiguity.\n\nThe visual style is **Corporate / Modern** with a lean towards **Technical Minimalism**. It avoids all contemporary \"soft\" trends such as glassmorphism, shadows, or gradients. Instead, it relies on hairline borders, rigid grid structures, and a clear typographic hierarchy to create a sense of professional-grade stability. The UI should feel like a piece of high-end industrial equipment: rugged, precise, and efficient.\n\n## Colors\nThe color palette is strictly utility-driven. The background uses a cool near-white to reduce eye strain under industrial lighting. \n\n- **Primary (Steel Blue):** Reserved for primary actions, navigation states, and structural identifiers.\n- **Alert (Amber):** Used for caution, high-priority tasks, or items requiring immediate attention without being critical failures.\n- **Success (Green):** Indicates completed cycles, active machinery, or valid data entry.\n- **Error (Red):** Used for system failures, depleted inventory, or critical safety alerts.\n- **Neutrals:** Text and borders use a high-contrast grayscale to maintain legibility in high-density data tables.\n\n## Typography\nTypography is split by functional role to aid rapid scanning:\n- **Headers \u0026 Labels:** Archivo Narrow provides a technical, space-efficient feel. Small caps are used for metadata labels to distinguish them from the data values they describe.\n- **General UI \u0026 Tables:** Inter is used for its superior legibility at small sizes in dense tabular formats.\n- **Technical Data:** IBM Plex Mono is mandated for all non-prose data including Serial Numbers, SKUs, Timestamps, and Coordinates to prevent character confusion (e.g., \u00270\u0027 vs \u0027O\u0027, \u00271\u0027 vs \u0027l\u0027).\n\n## Layout \u0026 Spacing\nThe system utilizes a **fixed grid** approach with high-density spacing based on a 4px baseline. \n\n- **Desktop:** 12-column grid, 12px gutters, 24px outer margins. Panels are typically fixed-width or snap to column increments.\n- **Data Density:** Vertical rhythm is tight. Standard table rows are 40px, while \"Dense\" modes (for large inventory lists) drop to 32px.\n- **Structure:** Content is organized into \"Modules\" separated by 1px hairline borders (#E2E5E9). Negative space is used strategically to group related data, but overall whitespace is kept to a functional minimum to maximize visible information.\n\n## Elevation \u0026 Depth\nDepth is communicated through **Tonal Layering** and **Borders** rather than shadows. \n- **Level 0 (Background):** #F7F8FA.\n- **Level 1 (Surface):** #FFFFFF – Used for cards, table bodies, and input fields.\n- **Level 2 (Header/Overlay):** #F1F2F4 – Used for table headers and sidebars.\n\nSeparation is achieved through 1px solid borders. There are no shadows in the system. When an element is \"raised\" (like a modal), it is defined by a thicker 2px border or a high-contrast overlay, maintaining a flat, industrial aesthetic.\n\n## Shapes\nThe shape language is rigid and geometric. \n- **Standard Corners:** 4px radius for buttons, input fields, and small containers.\n- **Large Containers:** 6px radius for primary dashboard modules.\n- **Square:** 0px radius is acceptable for table cells and internal dividers to reinforce the \"instrument cluster\" appearance.\n\n## Components\n- **Data Plate Header:** A specialized component for record views. A #2C4A6E top-border strip. Left-aligned: Serial ID in IBM Plex Mono (Bold). Right-aligned: 3-4 metadata clusters (e.g., Status, Priority) featuring a `label-caps` descriptor above a `body-md` value.\n- **Buttons:** Solid #2C4A6E background with white text for primary actions. Secondary buttons use a 1px border with no fill. Labels must be verb-oriented (e.g., \"DISPATCH ORDER\").\n- **Status Indicators:** A 8px solid circular dot using the system semantic colors (Green, Amber, Red) followed by `body-sm` text.\n- **Input Fields:** Rectangular with 1px #E2E5E9 borders. On focus, the border changes to 1px #2C4A6E. No glow or shadow.\n- **Data Tables:** No vertical lines between columns; use horizontal lines only (#E2E5E9). Header row uses #F1F2F4 background with `label-caps` text.\n- **Chips/Badges:** Square-edged or 2px radius. Light tinted backgrounds with dark text for categorizing SKUs or Warehouse Zones.",
+                                                                                      "font":  "ARCHIVO_NARROW",
+                                                                                      "headlineFont":  "ARCHIVO_NARROW",
+                                                                                      "headlineFontFamily":  "Archivo Narrow",
+                                                                                      "labelFont":  "ARCHIVO_NARROW",
+                                                                                      "labelFontFamily":  "Archivo Narrow",
+                                                                                      "namedColors":  {
+                                                                                                          "background":  "#faf9fc",
+                                                                                                          "error":  "#ba1a1a",
+                                                                                                          "error_container":  "#ffdad6",
+                                                                                                          "inverse_on_surface":  "#f1f0f4",
+                                                                                                          "inverse_primary":  "#abc9f3",
+                                                                                                          "inverse_surface":  "#2f3033",
+                                                                                                          "on_background":  "#1a1c1e",
+                                                                                                          "on_error":  "#ffffff",
+                                                                                                          "on_error_container":  "#93000a",
+                                                                                                          "on_primary":  "#ffffff",
+                                                                                                          "on_primary_container":  "#9cbae4",
+                                                                                                          "on_primary_fixed":  "#001c38",
+                                                                                                          "on_primary_fixed_variant":  "#2a486c",
+                                                                                                          "on_secondary":  "#ffffff",
+                                                                                                          "on_secondary_container":  "#6f4300",
+                                                                                                          "on_secondary_fixed":  "#2b1700",
+                                                                                                          "on_secondary_fixed_variant":  "#673d00",
+                                                                                                          "on_surface":  "#1a1c1e",
+                                                                                                          "on_surface_variant":  "#43474e",
+                                                                                                          "on_tertiary":  "#ffffff",
+                                                                                                          "on_tertiary_container":  "#7cc799",
+                                                                                                          "on_tertiary_fixed":  "#002110",
+                                                                                                          "on_tertiary_fixed_variant":  "#005230",
+                                                                                                          "outline":  "#73777f",
+                                                                                                          "outline_variant":  "#c3c6cf",
+                                                                                                          "primary":  "#123356",
+                                                                                                          "primary_container":  "#2c4a6e",
+                                                                                                          "primary_fixed":  "#d3e4ff",
+                                                                                                          "primary_fixed_dim":  "#abc9f3",
+                                                                                                          "secondary":  "#875200",
+                                                                                                          "secondary_container":  "#fead48",
+                                                                                                          "secondary_fixed":  "#ffddba",
+                                                                                                          "secondary_fixed_dim":  "#ffb866",
+                                                                                                          "surface":  "#faf9fc",
+                                                                                                          "surface_bright":  "#faf9fc",
+                                                                                                          "surface_container":  "#eeedf1",
+                                                                                                          "surface_container_high":  "#e9e8eb",
+                                                                                                          "surface_container_highest":  "#e3e2e5",
+                                                                                                          "surface_container_low":  "#f4f3f6",
+                                                                                                          "surface_container_lowest":  "#ffffff",
+                                                                                                          "surface_dim":  "#dad9dd",
+                                                                                                          "surface_tint":  "#436085",
+                                                                                                          "surface_variant":  "#e3e2e5",
+                                                                                                          "tertiary":  "#003b21",
+                                                                                                          "tertiary_container":  "#005431",
+                                                                                                          "tertiary_fixed":  "#a6f3c2",
+                                                                                                          "tertiary_fixed_dim":  "#8bd7a7"
+                                                                                                      },
+                                                                                      "overridePrimaryColor":  "#2c4a6e",
+                                                                                      "overrideSecondaryColor":  "#d98e2b",
+                                                                                      "overrideTertiaryColor":  "#2f7a52",
+                                                                                      "roundness":  "ROUND_FOUR",
+                                                                                      "spacing":  {
+                                                                                                      "container-padding":  "16px",
+                                                                                                      "gutter":  "12px",
+                                                                                                      "row-height-dense":  "32px",
+                                                                                                      "row-height-standard":  "40px",
+                                                                                                      "unit":  "4px"
+                                                                                                  },
+                                                                                      "spacingScale":  2,
+                                                                                      "typography":  {
+                                                                                                         "body-lg":  {
+                                                                                                                         "fontFamily":  "Inter",
+                                                                                                                         "fontSize":  "16px",
+                                                                                                                         "fontWeight":  "400",
+                                                                                                                         "lineHeight":  "24px"
+                                                                                                                     },
+                                                                                                         "body-md":  {
+                                                                                                                         "fontFamily":  "Inter",
+                                                                                                                         "fontSize":  "14px",
+                                                                                                                         "fontWeight":  "400",
+                                                                                                                         "lineHeight":  "20px"
+                                                                                                                     },
+                                                                                                         "body-sm":  {
+                                                                                                                         "fontFamily":  "Inter",
+                                                                                                                         "fontSize":  "12px",
+                                                                                                                         "fontWeight":  "400",
+                                                                                                                         "lineHeight":  "18px"
+                                                                                                                     },
+                                                                                                         "data-mono":  {
+                                                                                                                           "fontFamily":  "IBM Plex Mono",
+                                                                                                                           "fontSize":  "13px",
+                                                                                                                           "fontWeight":  "500",
+                                                                                                                           "lineHeight":  "20px"
+                                                                                                                       },
+                                                                                                         "headline-lg":  {
+                                                                                                                             "fontFamily":  "Archivo Narrow",
+                                                                                                                             "fontSize":  "24px",
+                                                                                                                             "fontWeight":  "600",
+                                                                                                                             "letterSpacing":  "-0.01em",
+                                                                                                                             "lineHeight":  "32px"
+                                                                                                                         },
+                                                                                                         "headline-md":  {
+                                                                                                                             "fontFamily":  "Archivo Narrow",
+                                                                                                                             "fontSize":  "20px",
+                                                                                                                             "fontWeight":  "600",
+                                                                                                                             "lineHeight":  "28px"
+                                                                                                                         },
+                                                                                                         "headline-sm":  {
+                                                                                                                             "fontFamily":  "Archivo Narrow",
+                                                                                                                             "fontSize":  "16px",
+                                                                                                                             "fontWeight":  "600",
+                                                                                                                             "lineHeight":  "24px"
+                                                                                                                         },
+                                                                                                         "label-caps":  {
+                                                                                                                            "fontFamily":  "Archivo Narrow",
+                                                                                                                            "fontSize":  "11px",
+                                                                                                                            "fontWeight":  "700",
+                                                                                                                            "letterSpacing":  "0.05em",
+                                                                                                                            "lineHeight":  "16px"
+                                                                                                                        }
+                                                                                                     }
+                                                                                  },
+                                                                  "deviceType":  "DESKTOP",
+                                                                  "metadata":  {
+                                                                                   "userRole":  "OWNER"
+                                                                               },
+                                                                  "name":  "projects/16391226028490069095",
+                                                                  "origin":  "STITCH",
+                                                                  "projectType":  "TEXT_TO_UI_PRO",
+                                                                  "screenInstances":  [
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "41cfcf2b9a1b4f628fa4d79aed034a5e",
+                                                                                              "sourceScreen":  "projects/16391226028490069095/screens/41cfcf2b9a1b4f628fa4d79aed034a5e",
+                                                                                              "width":  1280,
+                                                                                              "x":  1696
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  32,
+                                                                                              "id":  "4555f0b0453b45b6b00b09358d7b9038",
+                                                                                              "sourceScreen":  "projects/16391226028490069095/screens/4555f0b0453b45b6b00b09358d7b9038",
+                                                                                              "width":  32,
+                                                                                              "x":  1600
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1037,
+                                                                                              "id":  "747b4fff3f284c2ebf49b5a437a6c211",
+                                                                                              "sourceScreen":  "projects/16391226028490069095/screens/747b4fff3f284c2ebf49b5a437a6c211",
+                                                                                              "width":  390,
+                                                                                              "x":  7526
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "7f9bc143be9f4e41ac33fe96c393f12b",
+                                                                                              "sourceScreen":  "projects/16391226028490069095/screens/7f9bc143be9f4e41ac33fe96c393f12b",
+                                                                                              "width":  1280,
+                                                                                              "x":  2368,
+                                                                                              "y":  1458
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "9482609546f04a6c93acd9ba36dfecfc",
+                                                                                              "sourceScreen":  "projects/16391226028490069095/screens/9482609546f04a6c93acd9ba36dfecfc",
+                                                                                              "width":  1280,
+                                                                                              "x":  3034,
+                                                                                              "y":  13
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1263,
+                                                                                              "id":  "9a18dcfa278644abbddc26f8b4bd0c75",
+                                                                                              "sourceScreen":  "projects/16391226028490069095/screens/9a18dcfa278644abbddc26f8b4bd0c75",
+                                                                                              "width":  390,
+                                                                                              "x":  4166,
+                                                                                              "y":  1458
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  540,
+                                                                                              "id":  "assets_62a2108788024257afa60e53200aa9ed",
+                                                                                              "sourceAsset":  "assets/62a2108788024257afa60e53200aa9ed",
+                                                                                              "type":  "DESIGN_SYSTEM_INSTANCE",
+                                                                                              "width":  960,
+                                                                                              "x":  229,
+                                                                                              "y":  662
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  540,
+                                                                                              "id":  "assets_8d854afa3b1a482083ccb9bd4d26e82e",
+                                                                                              "sourceAsset":  "assets/8d854afa3b1a482083ccb9bd4d26e82e",
+                                                                                              "type":  "DESIGN_SYSTEM_INSTANCE",
+                                                                                              "width":  960,
+                                                                                              "y":  1458
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "bed0a7e732dc44ebbf14a594ac32690b",
+                                                                                              "sourceScreen":  "projects/16391226028490069095/screens/bed0a7e732dc44ebbf14a594ac32690b",
+                                                                                              "width":  1280,
+                                                                                              "x":  5728
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "c62cb5c7a99048c08fc5019aebd9c7d5",
+                                                                                              "sourceScreen":  "projects/16391226028490069095/screens/c62cb5c7a99048c08fc5019aebd9c7d5",
+                                                                                              "width":  1280,
+                                                                                              "x":  7980
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1226,
+                                                                                              "id":  "c75f060908a24e8ab7a33a0e2132d810",
+                                                                                              "sourceScreen":  "projects/16391226028490069095/screens/c75f060908a24e8ab7a33a0e2132d810",
+                                                                                              "width":  390,
+                                                                                              "x":  3712,
+                                                                                              "y":  1458
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  923,
+                                                                                              "id":  "c97f024b994e41439e7dc28c1f457f63",
+                                                                                              "sourceScreen":  "projects/16391226028490069095/screens/c97f024b994e41439e7dc28c1f457f63",
+                                                                                              "width":  390,
+                                                                                              "x":  7072
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  512,
+                                                                                              "id":  "cda7ba0972ec4f639799b81471000e8b",
+                                                                                              "sourceScreen":  "projects/16391226028490069095/screens/cda7ba0972ec4f639799b81471000e8b",
+                                                                                              "width":  512,
+                                                                                              "x":  1024
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "e6a9abcd9c2c4ef08b9712e082e895eb",
+                                                                                              "sourceScreen":  "projects/16391226028490069095/screens/e6a9abcd9c2c4ef08b9712e082e895eb",
+                                                                                              "width":  1280,
+                                                                                              "x":  4384
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1024,
+                                                                                              "id":  "e9700e8d2f00427fa1c1f153136a79ba",
+                                                                                              "sourceScreen":  "projects/16391226028490069095/screens/e9700e8d2f00427fa1c1f153136a79ba",
+                                                                                              "width":  1280,
+                                                                                              "x":  1024,
+                                                                                              "y":  1458
+                                                                                          }
+                                                                                      ],
+                                                                  "thumbnailScreenshot":  {
+                                                                                              "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLsXqBYkbub9fwEyRWGOvCNW-Oj8cK2hOnxlgJ-POC_EZEJ9Tz1SNr1O9_pgJBq_NAj04s0lQiy4pktFO2Ci1aVuBtQCAIaLQh8rKQFAc4CUzdzzrjpv2eiIRrwduNorNSFPsrpTABqdour0xsXdbp1sCl3sfUd5Jj3mWgCKS_vTh99q55yimdgRE_E8HRez8nnegMgAaMCpD9j9MeCj9VAIkOdY87bvhGhZwifN6RikhUj2a0aQ4DcFFY8",
+                                                                                              "name":  "projects/16391226028490069095/files/a352b843744f435195a7c9991dcdf947"
+                                                                                          },
+                                                                  "title":  "Cortex Industrial Management System",
+                                                                  "updateTime":  "2026-07-02T06:49:00.049677Z",
+                                                                  "visibility":  "PRIVATE"
+                                                              },
+                                                              {
+                                                                  "createTime":  "2025-10-29T07:22:04.621774Z",
+                                                                  "designTheme":  {
+                                                                                      "colorMode":  "LIGHT",
+                                                                                      "customColor":  "#137fec",
+                                                                                      "font":  "INTER",
+                                                                                      "roundness":  "ROUND_EIGHT",
+                                                                                      "saturation":  2
+                                                                                  },
+                                                                  "deviceType":  "DESKTOP",
+                                                                  "metadata":  {
+                                                                                   "userRole":  "OWNER"
+                                                                               },
+                                                                  "name":  "projects/15805874292672904120",
+                                                                  "origin":  "STITCH",
+                                                                  "projectType":  "TEXT_TO_UI_PRO",
+                                                                  "screenInstances":  [
+                                                                                          {
+                                                                                              "height":  600,
+                                                                                              "id":  "11333365586716718020",
+                                                                                              "sourceScreen":  "projects/15805874292672904120/screens/11333365586716718020",
+                                                                                              "width":  1024,
+                                                                                              "x":  32,
+                                                                                              "y":  74
+                                                                                          },
+                                                                                          {
+                                                                                              "height":  1633,
+                                                                                              "id":  "7718196131374af69685ef7b1075a98b",
+                                                                                              "sourceScreen":  "projects/15805874292672904120/screens/7718196131374af69685ef7b1075a98b",
+                                                                                              "width":  1280,
+                                                                                              "x":  -123,
+                                                                                              "y":  1380
+                                                                                          },
+                                                                                          {
+                                                                                              "id":  "b2e810a797ae4f7ea1bb1f481219ee8f",
+                                                                                              "sourceScreen":  "projects/15805874292672904120/screens/b2e810a797ae4f7ea1bb1f481219ee8f",
+                                                                                              "y":  856
+                                                                                          }
+                                                                                      ],
+                                                                  "thumbnailScreenshot":  {
+                                                                                              "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLsYw4XGbcr6-8QepNRvgzXSd_uCWynmQ4Ewsl4CnbNFRjbkYzTjGhWkI5A1vBfLVglXFlFBfGvYjs3LvkrW2z9QWoh6fJKHOSufO48_DOivNALO5d9EVCzsPD-PPat2vngZeaC7Iw_mPGLag5PtUP9W32IdVhhefYwbv8rnz-R-P1IyxmF_z7NRb3wC-SM2IVqod6Waf08cbdnsdFCYb6jNf1jAJWamjgMHUhtcAruhOifqKdhqkMFZerc",
+                                                                                              "name":  "projects/15805874292672904120/files/744138e8905946bebe050045766e53b1"
+                                                                                          },
+                                                                  "title":  "Disintegration Tester Main",
+                                                                  "updateTime":  "2025-10-29T07:24:10.146583Z",
+                                                                  "visibility":  "PRIVATE"
+                                                              }
+                                                          ]
+                                         }
+               }
+}

@@ -1,0 +1,467 @@
+﻿{
+    "projectId":  "11666165661317078688",
+    "screenCount":  29,
+    "screens":  [
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzM5YzAyYjc5ZGU0YzQ1ODZiZmE0MDg4NGRkOGYzZmY5EgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/2f74d07939fc4f06a9f48e115fb77c6f"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/dac943eb53b94be4861854c2c657d39b",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLspG0p9M8OHmlYJH-jr6aFOwpMRgwhJKrtHIpROMx3WYX_ldIMS4_J4Ldz-JsfdSelzBFBe72VHQ6JjV8UoL2hVO8J0QU5EZ48i2lEG3MJrH2MoDDZMsUZrzHBY40nwoaB8Sm1UvyDV9tOCWm9nVU_5-mvtIB0g-4H5wLC6BQytU9mG625LCbY4HIpdSxZEVc_UN-uCNb03oEXWSLP9TAuO7wktWXTbMviL90QIlMtLXjPls74AMGABZLGT",
+                                           "name":  "projects/11666165661317078688/files/4c14a3a18f0b41868556f637c09fa2f4"
+                                       },
+                        "title":  "Financial P\u0026L Summary",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2E3MDgzZjMwYzRmODQ4MGM4OTFmNDY1OTE3ZjA2MDAxEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/8be512eff4124127a3f989ff0df77ee0"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/4ba57a1b9ee345daa1d1c74df3d886cd",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLsmFtSPytOciealHVjy8vzQlv4Z7PKjznIf5CD_WmROgM_TCE8ZN_gOlvcHaMyvdApf684d9nuqdnoVOSdr8pEs4U-jTlwYuDTs6gTqvLkekOP2GC-XM12QW41VlP3sKM4OpFtPVZF-6MXbO_sRzyhP5MZkpw4C-R2WdxaT4EWz4-JEfea8mHTwdHGLXgdIc18e_TOn7DgozmDxww_fRiVVikcmblTBQQrRZkkkyYRaWP_2UXL2TWI9AwU",
+                                           "name":  "projects/11666165661317078688/files/b72439e64cd9402581a20eed47ae0ed3"
+                                       },
+                        "title":  "KDS - Order Details \u0026 Customizations",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2NiOWI1ZDc0ODIzZTRlM2NiNDc5NmI0YmVjNTA5OTYzEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/574bfdf9e7fc4504868ffdc1521dc11b"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/bf37b599c57e4353bf07f917b4c3e509",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLsKfDsAK-JQwStPk3UYG7rGEFnh69EB1oA-dV3vh6gw44ON8SzjOAd1jnr68D5a3AO0CAYl_sNqL3gMxBp6WgiXVu5ffKVhrhbrSRGELmEdAAhE0c9bwVqUvHwrboPajdvDpf8S7-B5yiUbKbfku94tJxJCtTt5jVuICNhaS6ju9dLj_gARHbcXYhcBaFCHDFZObFjqM_fwWBN-PRbs-Fwpu-FOnkNABtUZs2_W3juQEtssYznxE5l4Wwpm",
+                                           "name":  "projects/11666165661317078688/files/e9ef1b5d31634cf8ac780a7e04acc35a"
+                                       },
+                        "title":  "Staff Login - PIN Entry",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2U2ZTM5YzA3NWQ2NTRiNGY4MzI1ZDY5YTYyZmJjNGNiEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/594cd77cc3d94e7e9501ab6fd48da1d3"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/d63690306ccc424db68f0c9e2600b0c7",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLuFkVGAfQm2v48ObjxAQpgEseZM5Oi-LDTyjnBS8TjqCYuKgD8SaEBBKbAs9rAJ1f3HXiZgIkpnrbc14k_g_nFauKkRhPe-wsGPt0uN58qc2PTk1GycCErLlFVPu_wUWCxceS78ZZpy5tlPfTE-yBEDxWk33BMrvYUr23VmayDMmRUZmveYw4W4XBjWII-j3y0VGKOfWmfOmVMcEf2T2dRhEIyH9KO07hedfZh-fd8i6SSsKuhEVosVo9dq",
+                                           "name":  "projects/11666165661317078688/files/57d245e048f143f58ca74416056a5fa7"
+                                       },
+                        "title":  "Marketing \u0026 Promotion ROI",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2FjOTAzMjE1MTI3MDRmYTNhN2I3MmQwMTYxNjU5YzliEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/6e7049d0409e43c0ba94a9bcff4539ea"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/250c04f40aac4ca28ac01fe271608ebc",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLukMd2Ju2NVAqzxZIPvgPP9Xv_wYBFwZvGxIG6iiKwINxq20ftIcYyBJqbgh8-YSq7hzApBxPKwb_J1dDOXWtTF05l4DbMc3Dn-Mb8W2vJ_4GtNHXOTkDqJhrkzaXTzOrvNZ4VwmHFPzQXVIXT_TdhJ6ChqhtO07gbDiP7cVJ0N_2une-s66Np3lwZUgKumrKYZaas0zugYLETvp16YMIAi9U3PrjIRoxTc5jNurIXcIJAu_nUHax1yE8k",
+                                           "name":  "projects/11666165661317078688/files/6c62f4097997482aa75cdeb36ac00056"
+                                       },
+                        "title":  "Kitchen Display System - Main Board",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "MOBILE",
+                        "height":  "2012",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1NjMyNWI4ZTAxZGMwOTI1Yzc5MmQ2MzIwNzJiEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/1564402939821647467"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/a8bc2858181343d880c7a7ef6fef8ab1",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLsecBvJJHxJS56B6Fa8mPgQl88ttCpVRBhPPe9334AptxSXIL8TU390cgAvwpvoXhDlazKQrQFLdMaYC9hOnygw9Y4HlDKVBZxhkKZAl_VuWwt0D1tlSYJt2V4hWEpjBZGcjXJWg9RPNkHzG1QQCQHjKzTaALE-jR-N0339VBVDR6IMScGHKIf79nPkq4Q9bFXf4VLfdFYgck1tCcTnlvsg6_TWFDj5nCN1QaiCV34q0CRr9PIzHCPpggk",
+                                           "name":  "projects/11666165661317078688/files/11939416645722636527"
+                                       },
+                        "title":  "Your Cart",
+                        "width":  "780"
+                    },
+                    {
+                        "deviceType":  "MOBILE",
+                        "height":  "2306",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzI3OTZlYmQ0YjZmMjRhMWZiZmQ3ZGNmNzQyN2UzMWU4EgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/3533b92d82e54e189c026927a559a870"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/ed2fa73033aa4798bd78c9e9223d9083",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLu-w_AXP9Vry8wNm5J0Id86wWAVTllkJxilrwJ4JzV6E_zNmNHnng3Z3Hy9FyRZ1wWiwFk9uqzgUQLJj6t8RuceUGXq8bUbvjh1YsEl_QCx_60YHFBZfwmHawiE6dh8YbQL8zg-SxSIXKKDpRBONvrl6AnXwh3GflzIxvXYAkDt94DcRAf1dPMGLQjanj-mp8fbbraVIYw6gnyH6agO9YuXKONNHdoBturKFcRpv1c2wYYOQXVCz8BSu2Gk",
+                                           "name":  "projects/11666165661317078688/files/897e82d2afde4725a16d7b87b2a9ebd3"
+                                       },
+                        "title":  "Italian Menu - Crazy Monkey Logo Update",
+                        "width":  "780"
+                    },
+                    {
+                        "deviceType":  "MOBILE",
+                        "height":  "2640",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzJlMjc3NmViODY0MDQ4MDFiODk3MGUxOGRkZmE4YTI5EgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/ed943f6240b54d76b67b7525629f3379"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/795bd0cee48a41b2a1a6ad334fb6f9d9",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLtuXoCZMRhu610EwkLnRjfXjA6eiBkjesZ-VtOR8kdNAAxAvyd5dgnpE0PExnKbEhVkp09JXz6FJ5_4yHRH2ELJ6AoYGrPxUQhIpTQYQ_B988D0G8WwlHWvSDy2QvnaGvbDql63g61bqY-P1IiHDgcXWM3ctwTtO60knHP4x1GRHy8Nf_cgUxjxC3uEZPk7NNMC8n-wOJBltPKdwvwmrGR4eQbM0Lf9M3bjjEEWxXLm7oEoU1KrWGT5Jeg",
+                                           "name":  "projects/11666165661317078688/files/cebc6e6acf3d459c93dde120d982f0af"
+                                       },
+                        "title":  "Dessert Menu - Crazy Monkey",
+                        "width":  "780"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2NjNzlhZDU5NDViYTRkMjg4OGQ3MjQwNWMzYTc0NWVkEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/f11491ea403a481cafbafa086963f399"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/043434a7b4644e75a7c0a03a38ed5213",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLt1qeCOtN0-8-xgXeaI7Dqb2_5Q0zoGKynSfNS5yYJZyOq44opFar30eRuTou3O_5Z2Vu4elTatdqHVsLCOT5D3q23q88pGcnAHDmNcAYi7l4iHiJOgKJWJeATO47bHaHGzQUToQDS-AEnQEYUhxJ3TDIa2bosFECEBZ4tJIHAPgTQsvU10yL5-eAO0eYoasoegXrO0turOpbs_1Hki7goTEeiUCXNejmKw9C_-4QT5o3kf1O7ckxx_eVuy",
+                                           "name":  "projects/11666165661317078688/files/79617f02bd324617892ce114d9bc31f5"
+                                       },
+                        "title":  "Performance Reports \u0026 Insights",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2ZhYzBiZDQyYzZiNDQ1N2FhYjBhMmVkNDczYjRjZGVlEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/37165df02f81425b8ea7be64cd8005af"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/cb4a2a6d83414244a046139e3be22946",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLv0O87twpaBLlMD1Fn-jrsIfD7msh8QYcRjkHu5mgoztgdZFWLHpfVkPBb_DQBhOwAiSt1893G7Rz0O_ctoJdPoeCFvMyplV4lohcReNpO1Xef6iwjUbY35ZPogzqimDhU6XSp-hguO3ttpRIsgLUhnO-WTGRuTCnLlxSR66ptNQFH-Dq8Y4o1vAT9xEPbPf2GawYXUnxkhMB0fHu7wu5xLWjRR30xupOdKe3VcSpLiYXEuYx8wd8QxLMUQ",
+                                           "name":  "projects/11666165661317078688/files/d3b3737c7648420891d98c8f59e87f64"
+                                       },
+                        "title":  "Guest Feedback \u0026 Reputation",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "MOBILE",
+                        "height":  "1768",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1NjMyNGM2Yjc2MDMwMzM4NWEyNzkyMWExOTE1EgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/7411497924522536020"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/e480f10a289849dc9bb3bc9b697d9460",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLvoOk6IGU0xuwPEmE3TMM0GdnGXCBclRFHp7kDuA7b2XXDyUx3FdKWuk4Vz8oUfFQXqahyxXyH-ydQrI6-Qz49qk5ceVqQly66rpvlvF2glcdDU_EapRN2cQ4DKdgiXOXooc5NBYRiJCw_UP_57cSSb4GZwO4mhYiyTjbsFKyofnlC3ltxrzmBuF9fPucjrOMb8gQOqRp6J6XWdg4JIejWWUWRWQdW2OqcjNuvlDkDASKDfQNVQYgDP-fXN",
+                                           "name":  "projects/11666165661317078688/files/17372699002007186085"
+                                       },
+                        "title":  "Order Tracking",
+                        "width":  "780"
+                    },
+                    {
+                        "deviceType":  "MOBILE",
+                        "height":  "3714",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzFiOGY3YWE1YzkxMDQ2YjBiMmE0YzA5MWNjYWQwZTIzEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/776228aeb60941d098108857a021d296"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/a9f114cdffac452ab93f9cd60fe0d357",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLtOpztSRXNUhlzwrkZRWAxfv143eK38aiEqGIE5FkjjIJyC4Fe93INYBRjR3pYfD4MHBvRvFv2JR7QLJMUYFVSRQAhvU-cTQqxpp09xZ3apteysdKaVe4dfVLXufjMvaNiGk5HvAiLh9u96YogVu87BE2WYXyqc7jRmNCpoXMRIiippZWBtuRwloP7ai2-RkpwzORrAhmog0ulFqguXm7EZiOcKPpF76XTgsgVqrBLGJjHAbbl0o0VHdrhV",
+                                           "name":  "projects/11666165661317078688/files/1545072c83a74558923bc53c0e51833f"
+                                       },
+                        "title":  "Chinese Menu - Crazy Monkey Logo Update",
+                        "width":  "780"
+                    },
+                    {
+                        "height":  "1254",
+                        "htmlCode":  {
+
+                                     },
+                        "name":  "projects/11666165661317078688/screens/12551465583412660738",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLuSbbpjrL9gnZXw94XYi8PO3HAb9-cZlyf9LCls8VAo8Mx3vGEXEwuuprfaV0dq43N3kCz2bjzoEgOT1LShl0pNgEe6a4rFG2VeGVNn7HHXlbDRiTLT5sXN0w-Qi6MNC7xBIzMdDHr1ZvG_RqhC-91nduUBulur_CH-trwToLiAmxzNUHcIyV7pZJqM9lCPMwCwYtZYNuuNDqpSi-RMFoh-9Nn2A9z6PezrHyLmSLL7pzPjRRIpLaNpWzCyABRgjugbxE8bj0yuBQ",
+                                           "name":  "projects/11666165661317078688/files/12551465583412658697"
+                                       },
+                        "title":  "imh.png",
+                        "width":  "1254"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzlhODBmZWQzZGI0NjQ5ZjliODJlNzExODljMzY4ZDMxEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/b16c6f4413144ebf9159653ae71dd8d3"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/7ef40a66875941d395f33f87d00b5df4",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLvudz3J5N0oJC4FaVRAFKFwMFoxseDZW9jvat11tOTnojVo4IDc7njQlmMxN6Ce3bX1PflX_4zllzCtMh1VBm6NkS9LHvb2poXf9iKFqpf86sgqWUWyGkwV8rn_8c7PzIPk1Y6IaO3M6pzhMlg57F8QO8ols9qW1bbmZ41XULdVvhvLjxDLt2DhF0lLDWXTurn6Scyp8zklKNaZ4bWlQJyOOwNTpatC026rr6gqtN0dSJPl7YqDyrJC2DrU",
+                                           "name":  "projects/11666165661317078688/files/f9b5635745aa4bd8b4426dff69ca3fb9"
+                                       },
+                        "title":  "Staff Login - PIN Entry",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzc5NjlhODM2MWFmNTRhYWRiMWUxNzViYWMwYTBkYzZiEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/d2daf8dee522459bae7f112516c35b90"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/6a05f56767e94d3ca3d0225ca8dafb5a",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLtx90cLsfwdAjcey7R99cgO6ARbtNxcgm6-nzKpnwj8NrgoDWXWANvdfom1BJRt6ECVLAsSxys05HYrY5whw6AOwVDPTCS2tw-jqv-ml1QU3S4bTT9_KIYhd9WEo_Dn-3LD5yAxjZcsXVX7gqoNGqKcZFHQimNUaw5G5A-jxRahKBc_3ALbHGepcmowErTiceqUDMLVJ_WfW5XalXCBc3BEqPzJXi-6k8HZkVJkwiG1ibkt0XZI-tUrlfCL",
+                                           "name":  "projects/11666165661317078688/files/3425b0086c53487281cca0180dba5f15"
+                                       },
+                        "title":  "Staffing \u0026 Labor Analytics",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzFkNTAzZmMxMTZiNDRmMzFhOGU1YThjZDdiYjZkYzdjEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/9cc0f898eca24296a82855a656dc554b"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/0dd261ec54974cccab7a00eccc15ac42",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLtbHxSXvgLhZ2pbuvdqmYFRlfKG7V0fRF5AS46JUJu9KqHheNJQky26czDmfZ1CbG_JupaaMnknl6QdddJtGqjgwbSi6uN-QZwYWLVXC2q53Yc1esm2HUk38VhHk_Ydh6DyM9z0V5cbNqwv62FfAACxPP1szi1pUd-zRaxdVB2MYmRsGL6h5m7D18sfOCn-o7LrCbwWiQfz4-NDQGKlKn08VwnmI24R5stcPXRq_Pe6Ls5IRrzwBIOAQ-kR",
+                                           "name":  "projects/11666165661317078688/files/9eef2fceffff49e591644c1431eb7d4f"
+                                       },
+                        "title":  "Inventory - Ingredient Mapping",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "MOBILE",
+                        "height":  "2640",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzE3NTM5ZWY5Mjk4MTQyNDNiOGFlYjFjZTczMGE5M2JhEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/18506d658a714dc9a6568841f4bf1f2d"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/254994379dc043dfa13edf6b1a99b661",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLvXEaT4ncJj6WbMngT2diJAtf6H2vTm52HIFKku1ded0zssFa9zIkG1WIe3WV6J5Jt-LdRtDVilWIJTdunNrMQJHhX5auISVQvhgiWb5Ioo55FsBtCVjwvgRyhCMaYKg5FrNKMJPXd9SVaomT2qr5EH3xpLeNHMlTUCCrZu52sRiKQeyHOWqgv7Nw77xWzYFzqGoUs5U26P_G3Di4i3nABTkOcyLny9-wAozAc2kZj1N5V5KhYLy7sNznzK",
+                                           "name":  "projects/11666165661317078688/files/ab87c591ded54487ae8cf5384f03af4e"
+                                       },
+                        "title":  "Dessert Menu - Crazy Monkey Logo Update",
+                        "width":  "780"
+                    },
+                    {
+                        "deviceType":  "MOBILE",
+                        "height":  "2072",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1NjMyNGZmYWI5NTkwMzM4NWMyYWU4MDQ1NTUxEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/4722752211564049744"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/c3241f4c57d84887b8e750e93309cbdb",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLteiUJpVxTXvxpntewD9iF2dN43Whn0ZDYzh6q5PzidQq_er0K7YfmKaOft4s_JK74pk7gq4RjKg3tUa_A0k8dSjs112qlD237ZR-UGHRMjJsNYAjYtTo_zFOtV89IW4fWNncP23WEhwXVtjqM3xpUhnvYlyuW-ITvHSX-83NkNAN0vXdJL8p40vBA5-k_yyKG5bzQdlqY9eGOdSv117qJ9XCdnEDRn0numeG6JDQKLP5apqSgkINviQMw",
+                                           "name":  "projects/11666165661317078688/files/4436530941776180550"
+                                       },
+                        "title":  "Menu",
+                        "width":  "780"
+                    },
+                    {
+                        "deviceType":  "MOBILE",
+                        "height":  "1768",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzcwMjZhOTFlYWU2YTRmODk4ZmJmZmZlNmM1NjI5NmYzEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/718d85553f124efa88222a23ea5bcbb5"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/c8abcb2ee29b42e19dcb0515a780d7e3",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLs2nP5gZ8o4YOcdfoM435l0wF6INogGgPLvXODjFAxaAwyIh5mak9j9I6rY69mwcslljisos6gO5dE8gX4Q3MPo9YykfqU79Ukav9Jxtpe5cbNzUx0-ehVjBc4n26fw3oq-S17MouFQOF8HLc4IRaYiqrzY-nwNE8mVMC9iYkYlyk_nHr0_qb9A156p2XbTOMv87OlIQSufv6uw8Mi4RXcWHQakreZf8HgsXNg4s9N3Gn7TRI1zVwZXql1F",
+                                           "name":  "projects/11666165661317078688/files/bc06169f0f9f4fdf96f59164967236bf"
+                                       },
+                        "title":  "Welcome - Crazy Monkey Uploaded Logo",
+                        "width":  "780"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzBmOGFlYTEyMDE3ZDRmNGI4NzkxNWIwMWY0NzMxNzRlEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/3872e40927454f048e57d96f9f36a761"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/4d6d3198036045338b85b366defb8d15",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLvntXiydOHS-MRTQjBYOy4lhdgd6PdMKS_al0rrAFn9OB8qt2qHI4W4Cn46r3ehByrXSSNInJT-2HuJamOBrCF0_vtIfnmDNG_bg-dWKOlIUlBo4NEM-5ZLf9Y28eOrt8b2kJGBIC5fT5QWWqDY2wCCTBOzXakdU47gvlBeKeVct_NbTpnWKubX47oS0oSeTM4q3e5hJPoOdeef_wyLH1cN6egesGpKJ1nyN-mkdH7fNaR7xStBqEMvAn4",
+                                           "name":  "projects/11666165661317078688/files/523f642290f94ad5b7dbdaafc584b909"
+                                       },
+                        "title":  "KDS - Completed History",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzhjZTI0YzE1ZmQyYjRiNjI4ZjdmZGM5ZDNkMjRiNWRkEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/aba879b5b61c4068bcec729ba79f2cee"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/80c6790baa8d4183b6b7c16913db9052",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLsYvaloUcoUn5SyQ2RVXeDsb-8kHS6QWNTBhXjamkAoXdKcNO43wm4fiKx02fR4V81dLiQfXULKX_aqdW2XbwnLc8_B4EsR4Q4oFzmEHTyieExUjEYnBCBAbGJxu_bRHeZ34iW_p8fdU6gyi22IetpeDWMsNxvP4o2ptOIVT9KgqXsovkIJnJnwXiVjFAbJqFBVDWbbJCzzs4al3TKYa4Uzlw5RtZaXFA2TBi_UIRVxEH9uUGuAesVjd2Ki",
+                                           "name":  "projects/11666165661317078688/files/10d81563dc804d418bb67ed5b89acfa0"
+                                       },
+                        "title":  "Inventory - Manual Update",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "MOBILE",
+                        "height":  "3714",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzE1MDljMDNhYzU4NDRhNTk4YzIwNmE0MDAxMTRmODNmEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/6230201c6f714d2b96f30457f809c43c"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/87bf2fad3cd34a0887f5b21476e01400",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLs5gfRhl5-F2Fx1EJx-D5D0IhX2k5-Q7DhRgHtfxXtScggJpWlT79ht4imIeANfCJdnjWyDdiSGWkWVJeSt-3n_Zs-1S8UAYyq7TeJQBaXqg_vNyfiZC5G9f94givLTjOFt0P9ghe0can3OO17uM7RV0aCGMatQty_sR_SRQpgh_euOo51ILOQQIFFuPadUlZED4Gse2rn9BQdoDwBHlI4WkH5cYdVqFLConwm4EG_HbKGAqW_iA8dOp24",
+                                           "name":  "projects/11666165661317078688/files/52e39eb0216143d2af0708d59a675437"
+                                       },
+                        "title":  "Chinese Menu - Crazy Monkey",
+                        "width":  "780"
+                    },
+                    {
+                        "deviceType":  "MOBILE",
+                        "height":  "1768",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1NjMyODU3ZjJiMjgwMzgzOWFkNGUwMDM4MGU3EgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/3633661772997983395"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/3633661772997983817",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLtwRdLfK1QW2v_dCh1dVL-nejPp-8RC0qovfLQySJOc9TBhBI_bKu9OPKUoQk__o3br98bSr6db6WkjFi5bKPqReAmYKmE9PBie44LumutH-0gd_3sx4lbErLVtSJtyptaykcvTUlWcfsOCL8DKqJO-2UXHO9YQ9GeQUYQAtZ6azhcY7a01aV2mVjEu-nJ91nB34V4bdYDPZ714PY_ynYljjgu7p_N3IX92jxnOyAzgpkrsM_ux0MHjtJk",
+                                           "name":  "projects/11666165661317078688/files/3633661772997981558"
+                                       },
+                        "title":  "Welcome - Crazy Monkey Uploaded Logo",
+                        "width":  "780"
+                    },
+                    {
+                        "deviceType":  "MOBILE",
+                        "height":  "2306",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzk3OGU2ZjQ4ZmZmYTRkZTZiZmVmYzIyNjVmMGY4ZDBmEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/a0a4d5a5d66342bbbafab3426f3c2ddb"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/e6ac8e2ba229405d87341a54a13b379f",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLtWr9c_bURlw265CLe7drMRF3knIWdf0dmRqJIMdlDRkgJfU4_b42rYn_Bg9v1wofWFFiZK6FrhWtTdW6c0WSc-z7J_koN7eI7F7SIOrqC4AgFb8evynxr1z53_rA9QsSL02cnAdbrGv2SEH4SY_ZEpt-0kokAPln44R5sGZMk63Q4MJIEsuf3SRGZ3JJHr_HQ2x0GaKPlvumApF74-D6plv16d9EID_U4Gz_qhEtATQHjOxCJukefiAYu8",
+                                           "name":  "projects/11666165661317078688/files/3f5fc9f8152647ad9af2aa4196395657"
+                                       },
+                        "title":  "Italian Menu - Crazy Monkey",
+                        "width":  "780"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzk4YzFjMjYzNTc3MDQ3NmE4NzQ2ZTkyMmExNTlmZDk2EgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/ae5f39c68b754ac281235c304f8318a1"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/227377caf76f47c8a753400e287177af",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLs2eMoZn3rpoSGk9pG-wjiqoVJxN4z2DUnzEF9tv6u__YybzhUT6eHW3RoQ4eX1_5Gr1H0iPm3iAot5h6hp8ZIptgjspPMUW_m5oezjINBrM-wb4TXLA6v7JJrjCscZwmhl00CO5UhzVGeWDK3AZBKmMh9Yvqp75H_Z54MjBiBXy4DYa9a4Vvktk1SWF0kKf_nSC6Tl1sSrzaOTDa87Lx4zp4m4CX6BhPqt4TW1ggGDyTdDSTZ58BCC-EUv",
+                                           "name":  "projects/11666165661317078688/files/1e45525285bb4fd982feb6936a53e415"
+                                       },
+                        "title":  "Inventory - Low Stock Alerts",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzU2YmE3NjVkYTk1MzRiNTg5M2JkZTdlMDFiNjYzMGNlEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/580bb5b3cb69489cb80680d337340038"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/c186f7e08a434df9adefb18835e65e73",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLsiD5m5BPK4Z_1Xwfkq7i9Agakrc0gCmmkwXB43MPk2ur4Tu0m2VUM64xDmrJtKk-obpnibV9mBSqEGaqXwPNI-1ZQg3JTmDw-B0cbOo3OrvLfovOsqvJ0Eafo6s6VZnlynJqjy93ysPID8RNQDCr7ZK46TYoA0og6q_n5ZDdsY4YO2SSESo_EyBDNtuEoahyjwCvRThmoVZLvHCwHmnfkP4dKs9uSjxmY4Ee66X3lzmAIpINtAGekVmdFd",
+                                           "name":  "projects/11666165661317078688/files/9d62f15226244ab8929382ef4cbf7e33"
+                                       },
+                        "title":  "Customer Insights \u0026 Loyalty",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2FiMjhmMzk2OTRjZjQwNDE5MDUzMTQxOGVkZDBhMDZiEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/c9431458a378439f970a58ac1ddd640c"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/fe467afda50042d78a54d4b27e7f8ccb",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLtg-sZCB6Qi7yIjeJSia97OtUS9qfdENFGjQLG4cbp_6SwBeFld6xG1aOx-3CYEFbSbTAUDLtS34Bml1deiH7ehyeWff93hrj6JPh1si5VTxWdnFw4CAtDDUa0rvk3h5IW-18vyiX_wwJGBX9GJOjN40gbXix98gXvR1TqmqbVItaSNqhy8IO9-aT9y2Q4PHEOMz-FYRxUjygrbjPykH3hvS3oF0rmARsEu9GIYR8ZFneFHC2dL60LhkxTB",
+                                           "name":  "projects/11666165661317078688/files/5b79c775c8b7444b90c96111f06bad63"
+                                       },
+                        "title":  "Executive Overview - Analytics",
+                        "width":  "2560"
+                    },
+                    {
+                        "deviceType":  "MOBILE",
+                        "height":  "2012",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzViNjJhZTA3ZTIzZDRjNWFiYmYzMDEwOWZkODk3MWFmEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/efdf3bdf7d9848eeb2e882271bf9348b"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/7fef08bd84454183aaeffbf27ce3e3a8",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLvHpcX0vIwuttfJkavMFMlVDEoon2JwONeMXBNZW93hjdMNLuPZZOV684nMXNvOCMQG7q_IqfiTxkqGTYxoA6A94_VU5rYdgkaJrySN1AKQLwg2BKudH5ec_nAhsh0Al4g1LBQk937pFim4Xqd6kCOP4NCIqc4atayO4kcbF4kDR8XtxOUsp9PPPTULu9JW-4Wpz4i44oF2FZgUBFu4rYWLpgMgU5pm5g8LWpau_aWtFVzw3JZ15DHyOjY",
+                                           "name":  "projects/11666165661317078688/files/dd46a99250494ccfaa20a718038d7818"
+                                       },
+                        "title":  "Your Cart - Crazy Monkey Logo Update",
+                        "width":  "780"
+                    },
+                    {
+                        "deviceType":  "DESKTOP",
+                        "height":  "2048",
+                        "htmlCode":  {
+                                         "downloadUrl":  "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzk3MjEwMDI3MjMwNDQwOGI5ZGNiNzAzNjg5ZjU4MTRmEgsSBxD-kc_b-AIYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTY2NjE2NTY2MTMxNzA3ODY4OA\u0026filename=\u0026opi=89354086",
+                                         "mimeType":  "text/html",
+                                         "name":  "projects/11666165661317078688/files/255f9bad1c3d4e57a6c990bb42348b70"
+                                     },
+                        "name":  "projects/11666165661317078688/screens/4a8845dee6d146eaa6925f9aaf0eac6a",
+                        "screenshot":  {
+                                           "downloadUrl":  "https://lh3.googleusercontent.com/aida/AP1WRLteIuPYNycSWGm9_YYOgWWqSorjB31lr5BSpHm_c4J-TAx1J8vr9CNkpDOMFqPIq1onjqYBfqji7_nTiTXPO-S6HEo-BmeaIXRX9SXF7YiymAHw1-zcg3FsHF_UPdXIz2zdzONqWHzjPvCP14lPq5hYJVwcTj29oZuJj1FoYtI3cfausI_EljTNI--YntCE5_sfjBnvZ6rT78ZCCa0XoW1AqwdH0KwubKkAzJNrVFSUws2qcEZMvYukYkJ0",
+                                           "name":  "projects/11666165661317078688/files/d5e0a1838c9f41d9a1b123cdf3ec6694"
+                                       },
+                        "title":  "Inventory - Stock Overview",
+                        "width":  "2560"
+                    }
+                ]
+}
