@@ -1,0 +1,46 @@
+# Makes 2 empty commits per day so the contribution graph stays green.
+# Author email must match your GitHub account for squares to count.
+
+name: Keep GitHub Green
+
+on:
+  schedule:
+    # ~9:00 AM IST (03:30 UTC)
+    - cron: '30 3 * * *'
+    # ~8:30 PM IST (15:00 UTC)
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: keep-github-green
+  cancel-in-progress: false
+
+jobs:
+  empty-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create empty commit and push
+        env:
+          # Must match an email on your GitHub account (Settings → Emails)
+          GIT_AUTHOR_NAME: RANJITH12022004
+          GIT_AUTHOR_EMAIL: RANJITH12022004@users.noreply.github.com
+          GIT_COMMITTER_NAME: RANJITH12022004
+          GIT_COMMITTER_EMAIL: RANJITH12022004@users.noreply.github.com
+        run: |
+          set -euo pipefail
+          git config user.name "${GIT_AUTHOR_NAME}"
+          git config user.email "${GIT_AUTHOR_EMAIL}"
+
+          STAMP=$(date -u +'%Y-%m-%d %H:%M UTC')
+          git commit --allow-empty -m "chore: keep contribution graph active (${STAMP})"
+          git push origin HEAD
+          echo "Empty commit pushed at ${STAMP}"
