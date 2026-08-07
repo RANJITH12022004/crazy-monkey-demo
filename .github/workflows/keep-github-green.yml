@@ -42,5 +42,16 @@ jobs:
 
           STAMP=$(date -u +'%Y-%m-%d %H:%M UTC')
           git commit --allow-empty -m "chore: keep contribution graph active (${STAMP})"
-          git push origin HEAD
-          echo "Empty commit pushed at ${STAMP}"
+
+          # Retry push for transient GitHub / network failures
+          for attempt in 1 2 3; do
+            if git push origin HEAD; then
+              echo "Empty commit pushed at ${STAMP}"
+              exit 0
+            fi
+            echo "Push attempt ${attempt} failed; retrying..."
+            sleep $((attempt * 5))
+            git pull --rebase origin HEAD || true
+          done
+          echo "::error::Failed to push empty commit after retries"
+          exit 1
